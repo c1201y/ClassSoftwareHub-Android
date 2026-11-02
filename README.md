@@ -43,12 +43,12 @@
    - 文件内容：`gh.classsoftwarehub.cn`（自建 GitHub 反代，首选）→ `cdn.jsdelivr.net` → `gh-proxy` → `ghfast` 逐个回退，并记住上次成功的入口；该反代只放行浏览器风格 UA，整条链路统一按浏览器 UA 发请求；
    - 文件清单：`gh-proxy.com` / `ghfast.top` 代理的 GitHub contents 接口（权威）→ trees 接口 → jsDelivr 数据接口 → 打包清单 `assets/catalog-index.json`（自建反代不镜像 GitHub API，全部在线列目录失败时用它保证仍可更新内容）；
    - 快路径：时效过期后先问分支头提交号，与上次一致时直接跳过，一个文件都不下。
-3. **站点接口** `https://classsoftwarehub.us.ci/api/software`（兜底；截至 2026-11-02 该接口返回 404，仅保留代码通道）。
+3. **站点接口** `https://api.classsoftwarehub.cn/api/software`（兜底；截至 2026-11-02 该接口返回 404，仅保留代码通道）。
 4. **内置目录** `assets/catalog.json`（完全离线时可用，129 款，与仓库同源）。
 
 ## 教室喊话（手机 → 教室电脑，只发送）
 
-与桌面端「教室喊话」共用自建 Worker 中继，多入口按序回退（`cshapi.132614.xyz` → `submit.132614.xyz`），记住成功入口、单入口 10 秒超时：
+与桌面端「教室喊话」共用自建 Worker 中继，多入口按序回退（`api.classsoftwarehub.cn` → `submit.132614.xyz`），记住成功入口、单入口 10 秒超时：
 
 - 发送：`POST /api/announce/send`，请求体 `{pairCode, text, from, duration}`；text ≤100 字、署名 ≤20 字、时长 15/30/60 秒；
 - 查询：`GET /api/announce/list?pairCode=…` 取机器名与最近轮询时刻（用于设备列表的在线状态）；
@@ -56,7 +56,7 @@
 
 ## 提交与反馈（v1.2.0 起）
 
-提交软件与问题反馈不再依赖 GitHub 登录：直接 POST 到自建 Worker（入口 `cshapi.132614.xyz` → `submit.132614.xyz` 按序回退、记住成功入口、单入口 10 秒预算）：
+提交软件与问题反馈不再依赖 GitHub 登录：直接 POST 到自建 Worker（入口 `api.classsoftwarehub.cn` → `submit.132614.xyz` 按序回退、记住成功入口、单入口 10 秒预算）：
 
 1. **联系方式加密**：`_联系方式`（提交软件）/ `contact`（反馈）在手机本地用 age v1（X25519 + ChaCha20-Poly1305，纯 Kotlin 实现）加密成 armor 密文后随请求提交，服务端拒收明文；实现与桌面端 `AgeEncryption.cs` 同口径（单测含 RFC 8439 / 7748 / 5869 与 CCTV age x25519 官方解密向量）。
 2. **软件包 / 图标直传**：`POST /api/oss-sign` 换取一次性预签名 PUT 地址后直传对象存储——
@@ -231,7 +231,8 @@ gradlew.bat --version  # Gradle 8.7
 ## 数据源配置
 
 - 软件数据权威来源：站点仓库 `c1201y/ClassSoftwareHub` 的「软件数据/apps/」，经 `https://gh.classsoftwarehub.cn/gh/raw.githubusercontent.com/...` 取内容（国内直连可达，无需科学上网）。
-- 备用远程 API：`https://classsoftwarehub.us.ci/`（接口 `GET /api/software`，返回 JSON 数组，见 `SoftwareDto`），可在 `app/build.gradle.kts` 的 `DEFAULT_API_BASE_URL` 中修改；该接口当前为 404，走的是短超时通道，不会拖慢刷新。
+- 站点主域：`https://classsoftwarehub.cn`（下载站页面，「关于」页里的「软件下载站」指向它）；后端接口统一挂在 `https://api.classsoftwarehub.cn`（喊话中继、提交与反馈、图标代理）。
+- 备用远程 API：`https://api.classsoftwarehub.cn/`（接口 `GET /api/software`，返回 JSON 数组，见 `SoftwareDto`），可在 `app/build.gradle.kts` 的 `DEFAULT_API_BASE_URL` 中修改；该接口当前为 404，走的是短超时通道，不会拖慢刷新。
 - 远程不可用时自动回退到内置目录 `assets/catalog.json`，并缓存到 Room；刷新按钮为强制拉取（跳过 12 小时本地时效）。
 - 内置目录条目可在 `assets/catalog.json` 中自行维护（字段与 `SoftwareDto` 一致）；同步更新 `assets/catalog-index.json` 里的仓库文件路径清单。
 

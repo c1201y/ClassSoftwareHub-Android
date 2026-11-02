@@ -27,10 +27,10 @@ android {
 
         vectorDrawables { useSupportLibrary = true }
 
-        buildConfigField("String", "DEFAULT_API_BASE_URL", "\"https://classsoftwarehub.us.ci/\"")
-        buildConfigField("String", "GITHUB_REPO", "\"c1201y/ClassSoftwareHub-Desktop\"")
-        buildConfigField("String", "PROJECT_URL", "\"https://github.com/c1201y/ClassSoftwareHub-Desktop\"")
-        buildConfigField("String", "WEBSITE_URL", "\"https://classsoftwarehub.us.ci\"")
+        buildConfigField("String", "DEFAULT_API_BASE_URL", "\"https://api.classsoftwarehub.cn/\"")
+        buildConfigField("String", "GITHUB_REPO", "\"c1201y/ClassSoftwareHub-Android\"")
+        buildConfigField("String", "PROJECT_URL", "\"https://github.com/c1201y/ClassSoftwareHub-Android\"")
+        buildConfigField("String", "WEBSITE_URL", "\"https://classsoftwarehub.cn\"")
     }
 
     signingConfigs {

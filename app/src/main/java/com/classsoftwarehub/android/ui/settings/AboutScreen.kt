@@ -88,7 +88,9 @@ fun AboutScreen() {
                 Spacer(Modifier.height(6.dp))
                 Text(
                     "面向班级电教委员的软件下载站客户端，由 ClassSoftwareHub 桌面版重构而来的原生 Android 应用：" +
-                        "浏览软件清单、查看详情并直接下载到本机，内置取色、抽号、计时、编码与二维码等课堂常用工具。",
+                        "浏览软件清单、查看详情并直接下载到本机，内置取色、抽号、计时、编码与二维码等课堂常用工具。\n\n" +
+                        "本应用以 GNU GPL-3.0-or-later 发布，源码见项目主页；" +
+                        "清单数据来自 classsoftwarehub.cn，收录软件的版权归各软件厂商。",
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -129,6 +131,8 @@ fun AboutScreen() {
             text = {
                 Text(
                     buildString {
+                        appendLine("本应用（ClassSoftwareHub Android）以 GNU General Public License v3.0 或更高版本发布，完整条款见源码仓库的 LICENSE 文件。")
+                        appendLine()
                         appendLine("本应用使用了以下开源项目，感谢它们的作者：")
                         appendLine()
                         appendLine("· Jetpack Compose / Material 3 — Apache License 2.0")

@@ -65,7 +65,7 @@ class SoftwareRepository(
      * 刷新软件清单，链路（对齐桌面端的"仓库即权威"口径）：
      * 1. 本地缓存时效内 → 直接用，不发请求（手动刷新可强制绕过）；
      * 2. 站点仓库镜像（自建 gh 反代 / jsDelivr / gh-proxy，手机可达）—— 提交号未变则直接跳过；
-     * 3. 站点接口 classsoftwarehub.us.ci/api/software（兜底）；
+     * 3. 站点接口 api.classsoftwarehub.cn/api/software（兜底，接口目前 404，仅保留通道）；
      * 4. 都失败：本地为空 → 载入内置目录；本地有缓存 → 继续用缓存。
      */
     suspend fun refresh(force: Boolean = false): RefreshResult = withContext(Dispatchers.IO) {
