@@ -14,16 +14,22 @@ concurrency:
 jobs:
   build:
     name: Test & Debug APK
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: '17'
 
-      - uses: android-actions/setup-android@v3
+      # 固定 ubuntu-24.04：ubuntu-latest 正在向 Ubuntu 26 迁移，Android SDK 预装情况不稳定
+      - name: Ensure Android SDK components
+        run: |
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          SDKMANAGER="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          yes | "$SDKMANAGER" --licenses > /dev/null || true
+          "$SDKMANAGER" "platforms;android-34" "build-tools;34.0.0" "platform-tools"
 
       # 仓库里的 wrapper 指向腾讯镜像（为国内开发机准备），CI 换回官方源
       - name: Point Gradle wrapper at the official distribution
@@ -52,18 +58,22 @@ jobs:
     name: Signed Release
     if: startsWith(github.ref, 'refs/tags/v')
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: '17'
 
-      - uses: android-actions/setup-android@v3
+      - name: Ensure Android SDK components
+        run: |
+          SDKMANAGER="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          yes | "$SDKMANAGER" --licenses > /dev/null || true
+          "$SDKMANAGER" "platforms;android-34" "build-tools;34.0.0" "platform-tools"
 
       - name: Point Gradle wrapper at the official distribution
         run: |
@@ -103,15 +113,21 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          SIGNING_NOTE="debug-signed (internal testing only)"
           if [ "${{ steps.signing.outputs.signed }}" = "true" ]; then
-            SIGNING_NOTE="signed with the release key"
+            SIGNING_NOTE="release key"
+          else
+            SIGNING_NOTE="debug key（仅供内测，换正式密钥后旧包无法覆盖安装）"
           fi
           gh release create "${GITHUB_REF_NAME}" \
             app/build/outputs/apk/release/app-release.apk \
             --verify-tag \
             --title "${GITHUB_REF_NAME}" \
-            --notes "$(printf '## ClassSoftwareHub for Android %s\n\n- APK 签名：%s\n- 构建：Actions run %s\n\n安装前需在手机上允许「安装未知来源应用」。\n' "${GITHUB_REF_NAME#v}" "$SIGNING_NOTE" "$GITHUB_RUN_ID")"
+            --notes "ClassSoftwareHub for Android ${GITHUB_REF_NAME#v}
+
+          APK 签名：${SIGNING_NOTE}
+          构建：Actions run ${GITHUB_RUN_ID}
+
+          安装前需在手机上允许「安装未知来源应用」。"
 
       - name: Upload release APK
         uses: actions/upload-artifact@v4
