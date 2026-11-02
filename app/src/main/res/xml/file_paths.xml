@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- 下载目录：getExternalFilesDir(null)/downloads -->
+    <external-files-path
+        name="downloads"
+        path="downloads/" />
+    <!-- 分享二维码等临时文件 -->
+    <cache-path
+        name="share"
+        path="share/" />
+</paths>

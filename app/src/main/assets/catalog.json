@@ -1,0 +1,4284 @@
+[
+  {
+    "id": "classisland",
+    "name": "ClassIsland",
+    "category": "教学课堂",
+    "description": "ClassIsland 是专为教室多媒体大屏和班级电脑设计的课表工具，以悬浮窗形式常驻在屏幕边缘，显示当前课程与倒计时，支持上下课提醒、自动切换课程，还能装插件扩展天气、值日表等自定义组件，是教室电脑上的常驻工具。",
+    "version": "2.1.0.1",
+    "size": "60 MB+",
+    "requirements": "Windows 10/11（x86 / x64 / ARM64）、macOS、Linux",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/ClassIsland/ClassIsland@master/ClassIsland/Assets/AppLogo.png",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 selfContained · 主流 64 位系统，含运行时，推荐下载这个！",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/2.1.0.1/ClassIsland_app_windows_x64_selfContained_folder.zip",
+        "size": "126 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x86 selfContained · 适用于老旧 32 位系统，含运行时",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/2.1.0.1/ClassIsland_app_windows_x86_selfContained_folder.zip",
+        "size": "120 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 full_folder · 64 位 Windows 系统，不含运行时",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/2.1.0.1/ClassIsland_app_windows_x64_full_folder.zip",
+        "size": "64.8 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x86 full_folder · 32 位 Windows 系统，不含运行时",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/2.1.0.1/ClassIsland_app_windows_x86_full_folder.zip",
+        "size": "64 MB",
+        "version": null
+      },
+      {
+        "name": "Windows ARM selfContained · Windows on ARM，含运行时",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/2.1.0.1/ClassIsland_app_windows_arm64_selfContained_folder.zip",
+        "size": "120 MB",
+        "version": null
+      },
+      {
+        "name": "Windows ARM full_folder · Windows on ARM，不含运行时",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/2.1.0.1/ClassIsland_app_windows_arm64_full_folder.zip",
+        "size": "63.5 MB",
+        "version": null
+      },
+      {
+        "name": "MacOS x64 · MacOS 版本",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/2.1.0.1/ClassIsland_app_macos_x64_selfContained_pkg.pkg",
+        "size": "91.6 MB",
+        "version": null
+      },
+      {
+        "name": "MacOS arm64 · MacOS 版本",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/2.1.0.1/ClassIsland_app_macos_arm64_selfContained_pkg.pkg",
+        "size": "90.1 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64 含运行时",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/2.1.0.1/ClassIsland_app_linux_x64_selfContained_folder.zip",
+        "size": "88.5 MB",
+        "version": null
+      },
+      {
+        "name": "Linux arm64 含运行时",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/2.1.0.1/ClassIsland_app_linux_arm64_selfContained_folder.zip",
+        "size": "86 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64 便携版",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/2.1.0.1/ClassIsland_app_linux_x64_selfContained_deb.deb",
+        "size": "64.9 MB",
+        "version": null
+      },
+      {
+        "name": "Linux arm64 便携版",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/2.1.0.1/ClassIsland_app_linux_arm64_selfContained_deb.deb",
+        "size": "62 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "classisland-17",
+    "name": "ClassIsland 1.7",
+    "category": "教学课堂",
+    "description": "ClassIsland 是一款教室大屏 / 班级电脑用的课表与信息展示工具，可在屏幕角落常驻显示当前课程、上下课提醒、天气与自定义组件。这里提供的是 1.7 系列（最后版本 1.7.106.2），适合需要兼容旧插件、或仍在用 1.7 的教室电脑。注意：1.7 版不提供 exe 安装包，下载后解压压缩包、运行文件夹里的 ClassIsland.exe 即可；若已装 2.x 版请先卸载，两个大版本不能共存。",
+    "version": "1.7.0.1",
+    "size": "22 MB ~ 44 MB",
+    "requirements": "Windows 7+",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/ClassIsland/ClassIsland@master/ClassIsland/Assets/AppLogo.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "ClassIsland.zip",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/1.7.0.1/ClassIsland.zip",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "ClassIsland_AssetsTrimmed.zip",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/1.7.0.1/ClassIsland_AssetsTrimmed.zip",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "out_app_windows_arm64_full_singleFile.zip",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/1.7.0.1/out_app_windows_arm64_full_singleFile.zip",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "out_app_windows_x64_full_singleFile.zip",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/1.7.0.1/out_app_windows_x64_full_singleFile.zip",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "out_app_windows_x64_trimmed_singleFile.zip",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/1.7.0.1/out_app_windows_x64_trimmed_singleFile.zip",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "out_app_windows_x86_full_singleFile.zip",
+        "url": "https://github.com/ClassIsland/ClassIsland/releases/download/1.7.0.1/out_app_windows_x86_full_singleFile.zip",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "classwidgets2",
+    "name": "Class Widgets 2",
+    "category": "教学课堂",
+    "description": "Class Widgets 2 把课表做成桌面小组件，界面清爽现代。支持灵活排课、多周课表切换和考试倒计时，放在教室电脑桌面常驻显示，一眼就能看到下节课是什么，是 ClassIsland 之外的另一种课表方案。",
+    "version": "2.0.1.0",
+    "size": "101 MB+",
+    "requirements": "Windows 10/11、macOS（x64 / ARM64）",
+    "iconUrl": "https://ts1.tc.mm.bing.net/th/id/ODF.kfPOG12cGFCHf5t8EvY7MQ?w=32&h=32&qlt=93&pcl=fffffa&r=0&o=6&pid=1.2",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows · ClassWidgets-2-Windows.zip",
+        "url": "https://github.com/RinLit-233-shiroko/Class-Widgets-2/releases/download/2.0.1.0/ClassWidgets-2-Windows.zip",
+        "size": "101 MB",
+        "version": null
+      },
+      {
+        "name": "MacOS x64",
+        "url": "https://github.com/RinLit-233-shiroko/Class-Widgets-2/releases/download/2.0.1.0/ClassWidgets-2-macOS-X64.dmg",
+        "size": "443 MB",
+        "version": null
+      },
+      {
+        "name": "MacOS Arm64",
+        "url": "https://github.com/RinLit-233-shiroko/Class-Widgets-2/releases/download/2.0.1.0/ClassWidgets-2-macOS-ARM64.dmg",
+        "size": "426 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "lingyun-class-widgets",
+    "name": "LingYun-Class-Widgets",
+    "category": "教学课堂",
+    "description": "凌云班级组件把课表、时间和倒计时做成桌面小组件，常驻显示当前时间与日期、值日表、今日与明日课程、当前课程以及考试倒计时，还提供适合自习、专注时使用的「息屏显示」模式，屏幕上只留一个简洁的时钟。它支持多班管理与集中控制，大部分设置项都能云同步；课表和时间线编辑很方便，遇到节假日调课也能单独处理，并支持 CSES 通用课程表格式，多个课表文件可以快速导入导出、随时切换。上下课与预备铃提醒、自动跟随系统深浅色模式、自动更新也都齐全，是 Class Widgets 之外的另一套班级课表方案。",
+    "version": "v1.6.18",
+    "size": "约 76 MB",
+    "requirements": "Windows（64 位）",
+    "iconUrl": "https://www.yamikani.cn/assets/logo-BvjMWvo_.svg",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 安装版 · LingYun_Class_Widgets_v1.6.18_Install_x64.exe",
+        "url": "https://github.com/Yamikani-Flipped/LingYun-Class-Widgets/releases/download/v1.6.18/LingYun_Class_Widgets_v1.6.18_Install_x64.exe",
+        "size": "76.4 MB",
+        "version": null
+      },
+      {
+        "name": "其他 x64 压缩包 · LingYun_Class_Widgets_v1.6.18_x64.zip",
+        "url": "https://github.com/Yamikani-Flipped/LingYun-Class-Widgets/releases/download/v1.6.18/LingYun_Class_Widgets_v1.6.18_x64.zip",
+        "size": "65.0 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "shiguangschedule",
+    "name": "拾光课程表",
+    "category": "教学课堂",
+    "description": "一款开源、无广告、极简的课程表 APP，支持教务导入",
+    "version": "v2.1.0",
+    "size": "未知",
+    "requirements": "Windows / macOS / Linux / Android",
+    "iconUrl": "https://avatars.githubusercontent.com/u/332142885?v=4",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux",
+      "android"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Android ARM64（APK） · shiguangschedule-v2.1.0-arm64-v8a-release.apk",
+        "url": "https://github.com/ShiGuangSchedule/shiguangschedule/releases/download/v2.1.0/shiguangschedule-v2.1.0-arm64-v8a-release.apk",
+        "size": "5.2 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64（.deb） · shiguangschedule-v2.1.0-linux-x64-release.deb",
+        "url": "https://github.com/ShiGuangSchedule/shiguangschedule/releases/download/v2.1.0/shiguangschedule-v2.1.0-linux-x64-release.deb",
+        "size": "71.9 MB",
+        "version": null
+      },
+      {
+        "name": "macOS（Apple 芯片）（磁盘映像） · shiguangschedule-v2.1.0-macos-arm64-release.dmg",
+        "url": "https://github.com/ShiGuangSchedule/shiguangschedule/releases/download/v2.1.0/shiguangschedule-v2.1.0-macos-arm64-release.dmg",
+        "size": "87.3 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 安装版 · shiguangschedule-v2.1.0-windows-x64-release.exe",
+        "url": "https://github.com/ShiGuangSchedule/shiguangschedule/releases/download/v2.1.0/shiguangschedule-v2.1.0-windows-x64-release.exe",
+        "size": "78.4 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64（MSI 安装版） · shiguangschedule-v2.1.0-windows-x64-release.msi",
+        "url": "https://github.com/ShiGuangSchedule/shiguangschedule/releases/download/v2.1.0/shiguangschedule-v2.1.0-windows-x64-release.msi",
+        "size": "77.7 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "icc-ce",
+    "name": "ICC-CE",
+    "category": "教学课堂",
+    "description": "ICC-CE 是面向课堂教学评价的辅助工具，功能涵盖课堂表现评分、小组竞赛积分、随机抽选、计时器等，帮助老师即时给予反馈、提升课堂参与度，让课堂互动和纪律管理都更轻松。",
+    "version": "1.8.0.11",
+    "size": "62 MB+",
+    "requirements": "Windows 10/11（x64）",
+    "iconUrl": "https://ts4.tc.mm.bing.net/th/id/OIP-C.ubO6mUEw2mBvl2YxUB7CigHaHa?w=108&h=108&c=1&bgcl=c4655a&r=0&o=7&dpr=2&pid=ImgRC&rm=3",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "InkCanvasForClass.CE.1.8.0.4-x64.Setup.exe",
+        "url": "https://github.com/InkCanvasForClass/community/releases/download/1.8.0.11/InkCanvasForClass.CE.1.8.0.11-x64.Setup.exe",
+        "size": "61 MB",
+        "version": null
+      },
+      {
+        "name": "InkCanvasForClass.CE.1.8.0.4-x64.zip",
+        "url": "https://github.com/InkCanvasForClass/community/releases/download/1.8.0.11/InkCanvasForClass.CE.1.8.0.11-x64.zip",
+        "size": "73 MB",
+        "version": null
+      },
+      {
+        "name": "InkCanvasForClass.CE.1.8.0.4.Setup.exe",
+        "url": "https://github.com/InkCanvasForClass/community/releases/download/1.8.0.11/InkCanvasForClass.CE.1.8.0.11.Setup.exe",
+        "size": "61 MB",
+        "version": null
+      },
+      {
+        "name": "InkCanvasForClass.CE.1.8.0.4.zip",
+        "url": "https://github.com/InkCanvasForClass/community/releases/download/1.8.0.11/InkCanvasForClass.CE.1.8.0.11.zip",
+        "size": "73 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "classtools",
+    "name": "ClassTools",
+    "category": "教学课堂",
+    "description": "ClassTools 把班级电脑的桌面变成一块信息看板，用动态壁纸的方式常驻显示：时钟、高考倒计时、实时天气、课程表、作业布置与独立作业看板、班级标语、值日生安排。设置界面简单易用，改完立刻生效，不用每次重新配置，适合「一开机就能看到今天第几节课、还剩几天高考、作业是什么」的场景。基于 Electron + Vue3 开发，开源免费（GPLv3），另有一个网页版可以在线试用。",
+    "version": "v3.1.0",
+    "size": "约 64 MB",
+    "requirements": "Windows 10 / 11（32 / 64 位）",
+    "iconUrl": "https://store-images.s-microsoft.com/image/apps.52863.14109399796739009.657e7b75-563b-43b8-8aa9-b92803b83cd0.d71ff4ea-419b-43ae-ae69-1d0bb479d5e0?h=134",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "其他 便携版 · ClassTools-3.1.0-portable-32.7z",
+        "url": "https://github.com/clansty/ClassTools/releases/download/v3.1.0/ClassTools-3.1.0-portable-32.7z",
+        "size": "63.7 MB",
+        "version": null
+      },
+      {
+        "name": "其他 便携版 · ClassTools-3.1.0-portable-64.7z",
+        "url": "https://github.com/clansty/ClassTools/releases/download/v3.1.0/ClassTools-3.1.0-portable-64.7z",
+        "size": "66.9 MB",
+        "version": null
+      },
+      {
+        "name": "其他 x64 APPX · ClassTools_3.1.0.0_x64.Appx",
+        "url": "https://github.com/clansty/ClassTools/releases/download/v3.1.0/ClassTools_3.1.0.0_x64.Appx",
+        "size": "98.6 MB",
+        "version": null
+      },
+      {
+        "name": "其他 x86 APPX · ClassTools_3.1.0.0_x86.Appx",
+        "url": "https://github.com/clansty/ClassTools/releases/download/v3.1.0/ClassTools_3.1.0.0_x86.Appx",
+        "size": "93.4 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "classtopland",
+    "name": "ClassTopLand",
+    "category": "教学课堂",
+    "description": "一个轻量级的、简易使用的课表显示软件，占用低且轻巧，配置简单，适合在运行CI时占用骤增的白板使用。",
+    "version": "17ac32f",
+    "size": "41 MB",
+    "requirements": "Windows",
+    "iconUrl": "https://avatars.githubusercontent.com/u/98873438?v=4",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 安装版",
+        "url": "https://github.com/Aero8m/ClassTopLand/releases/download/17ac32f/ClassTopLand-setup_build_17ac32f-amd64.exe",
+        "size": "41.1 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "cheeseschedule",
+    "name": "CheeseSchedule",
+    "category": "教学课堂",
+    "description": "奶酪课程表是一款简洁的教室大屏电子课表软件，基于 Tauri + Vue 开发，安装包不到 10 MB、内存占用约 150 MB，比同类软件轻得多。除了课表本身（时间模式与课程编辑、多周轮换、按天自动切换、当日临时换课、时间偏移），它还把教室里常用的功能整合了进来：上下课语音提醒、窗口按上下课自动置顶置底；桌面可摆时钟、倒计日、日期进度、每日单词等小组件；随机抽选支持快捷键与悬浮按钮触发、动态概率、防重复、排除请假者。另有 CSES 通用课程表格式导入导出、编辑器密码锁定、U 盘密钥解锁等。注意：无法在 Windows 7 上运行，需要 Windows 10/11。",
+    "version": "v0.2.8",
+    "size": "6.8MB",
+    "requirements": "Windows 10 / 11（64 位，不支持 Windows 7）",
+    "iconUrl": "https://github.com/xwzkj/CheeseSchedule/raw/main/src-tauri/icons/64x64.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 安装版 · cheese-schedule_0.2.8_x64-setup.exe",
+        "url": "https://github.com/xwzkj/CheeseSchedule/releases/download/v0.2.8/cheese-schedule_0.2.8_x64-setup.exe",
+        "size": "6.8 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "timecontrol",
+    "name": "TimeControl",
+    "category": "教学课堂",
+    "description": "时间小工具 - 一个支持高度自定义的时钟挂件\n支持WinXP-Win11+",
+    "version": "1.1.29.26102",
+    "size": "未知",
+    "requirements": "Windows",
+    "iconUrl": "https://api.classsoftwarehub.cn/api/icon?k=icon%2F2026%2F10%2Fmv7meka8-wn86f4-time.webp",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "组策略 WinXP ADM · TimeControl.adm",
+        "url": "https://github.com/cjhdevact/TimeControl/releases/download/1.1.29.26102/TimeControl.adm",
+        "size": "6.7 KB",
+        "version": null
+      },
+      {
+        "name": "组策略（Windows Vista+） · TimeControlAdmxs.exe",
+        "url": "https://github.com/cjhdevact/TimeControl/releases/download/1.1.29.26102/TimeControlAdmxs.exe",
+        "size": "409 KB",
+        "version": null
+      },
+      {
+        "name": "ARM64 压缩包 · TimeControlv5-1.1.29.26102-ARM64-Bin.7z",
+        "url": "https://github.com/cjhdevact/TimeControl/releases/download/1.1.29.26102/TimeControlv5-1.1.29.26102-ARM64-Bin.7z",
+        "size": "155 KB",
+        "version": null
+      },
+      {
+        "name": "x64 x86 安装版本 · TimeControlv5-1.1.29.26102-Bin.7z",
+        "url": "https://github.com/cjhdevact/TimeControl/releases/download/1.1.29.26102/TimeControlv5-1.1.29.26102-Bin.7z",
+        "size": "307 KB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "secrandom",
+    "name": "SecRandom",
+    "category": "教学课堂",
+    "description": "SecRandom 是一款基于「动态权重」的公平随机抽取工具，专门面向课堂点名、抽签、分组等场景，由 SECTL 开发并开源（GPL-3.0）。它支持按名单范围、小组、性别、人数进行点名，提供「奖池」和「名单」两种抽签模式，还有悬浮窗「闪抽」让抽取几乎不打断课堂节奏；摄像头就绪的教室还可以开启可选的人脸抽取。名单与分组支持完整导入导出，每次抽取都有历史记录可复盘，结果可语音播报，并支持通过 IPC / URL 被脚本或外部工具调用。安全与数据方面提供密码、TOTP、USB 等多重验证，以及备份与恢复。v3.0.0 起新增插件系统与插件市场、Omni TTS 语音（可接 OpenAI、小米 MiMo 等，支持音色克隆）以及倒计时 / 秒表 / 时钟计时器；v3.1.5 起插件能力进一步扩展，并支持接入自部署集控。",
+    "version": "3.1.5",
+    "size": "90 MB ~ 254 MB（视平台）",
+    "requirements": "Windows 10/11（x86 / x64 / ARM64）、Linux、macOS、Android、iOS",
+    "iconUrl": "https://raw.githubusercontent.com/SECTL/SecRandom/master/SecRandom/Assets/AppLogo.png",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux",
+      "android",
+      "ios"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 安装版 · 主流 64 位系统，推荐下载这个",
+        "url": "https://ghproxy.sectl.top/https://github.com/SECTL/SecRandom/releases/download/v3.1.5/SecRandom-v3.1.5-win-x64-setup.exe",
+        "size": "160.9 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 便携版（完整） · 免安装，解压即用；自带运行时，体积大一些",
+        "url": "https://ghproxy.sectl.top/https://github.com/SECTL/SecRandom/releases/download/v3.1.5/SecRandom-v3.1.5-win-x64-portable-full.zip",
+        "size": "254.2 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 便携版（轻量） · 免安装，体积小；需系统已装 .NET 运行时",
+        "url": "https://ghproxy.sectl.top/https://github.com/SECTL/SecRandom/releases/download/v3.1.5/SecRandom-v3.1.5-win-x64-portable-light.zip",
+        "size": "150.3 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x86 安装版 · 适用于老旧 32 位系统",
+        "url": "https://ghproxy.sectl.top/https://github.com/SECTL/SecRandom/releases/download/v3.1.5/SecRandom-v3.1.5-win-x86-setup.exe",
+        "size": "130.5 MB",
+        "version": null
+      },
+      {
+        "name": "Windows ARM64 安装版 · 适用于 Windows on ARM 设备",
+        "url": "https://ghproxy.sectl.top/https://github.com/SECTL/SecRandom/releases/download/v3.1.5/SecRandom-v3.1.5-win-arm64-setup.exe",
+        "size": "128.5 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64（.deb） · Debian / Ubuntu 等，双击安装",
+        "url": "https://ghproxy.sectl.top/https://github.com/SECTL/SecRandom/releases/download/v3.1.5/SecRandom-v3.1.5-linux-x64.deb",
+        "size": "128.9 MB",
+        "version": null
+      },
+      {
+        "name": "Linux ARM64（.deb） · Debian / Ubuntu 等 ARM 设备",
+        "url": "https://ghproxy.sectl.top/https://github.com/SECTL/SecRandom/releases/download/v3.1.5/SecRandom-v3.1.5-linux-arm64.deb",
+        "size": "91.1 MB",
+        "version": null
+      },
+      {
+        "name": "macOS（Apple 芯片） · M 系列芯片；解压后拖入「应用程序」",
+        "url": "https://ghproxy.sectl.top/https://github.com/SECTL/SecRandom/releases/download/v3.1.5/SecRandom-v3.1.5-osx-arm64.app.zip",
+        "size": "112.2 MB",
+        "version": null
+      },
+      {
+        "name": "macOS（Intel） · Intel 芯片；解压后拖入「应用程序」",
+        "url": "https://ghproxy.sectl.top/https://github.com/SECTL/SecRandom/releases/download/v3.1.5/SecRandom-v3.1.5-osx-x64.app.zip",
+        "size": "114.3 MB",
+        "version": null
+      },
+      {
+        "name": "Android ARM64 · 安卓手机 / 平板（APK 安装包）",
+        "url": "https://ghproxy.sectl.top/https://github.com/SECTL/SecRandom/releases/download/v3.1.5/SecRandom-v3.1.5-android-arm64.apk",
+        "size": "117.8 MB",
+        "version": null
+      },
+      {
+        "name": "Android x64 · 安卓模拟器 / x86 设备（APK 安装包）",
+        "url": "https://ghproxy.sectl.top/https://github.com/SECTL/SecRandom/releases/download/v3.1.5/SecRandom-v3.1.5-android-x64.apk",
+        "size": "167.8 MB",
+        "version": null
+      },
+      {
+        "name": "全部平台 / 更多版本 · 网页：GitHub Releases（含 iOS、便携轻量版等全部文件）",
+        "url": "https://github.com/SECTL/SecRandom/releases/tag/v3.1.5",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "countboard",
+    "name": "CountBoard",
+    "category": "教学课堂",
+    "description": "CountBoard 是一个开源的桌面日程倒计时工具，把「高考还剩多少天」「下次月考还有几天」做成一块贴在桌面上的磁贴。磁贴提供亚克力与毛玻璃两种质感，既可以嵌进桌面（跟着桌面显示、不挡操作），也可以做成独立窗体并设置置顶；双击磁贴直接修改或删除日程，右键可以新建。提醒支持「每天固定时间」和「每隔一段时间」两种方式，计时还能选普通模式（24 小时内算一天）或紧迫模式（24 小时内算零天）。体积小、免安装依赖，放在教室电脑上很合适。",
+    "version": "V1.3.0.2",
+    "size": "约 18 MB",
+    "requirements": "Windows（64 位）",
+    "iconUrl": "https://img1.runjiapp.com/duoteimg/dtnew_softup_img/202111/939d7f8724616ab4.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装版 · CountBoard_1.3.0.2.exe",
+        "url": "https://github.com/Gaoyongxian666/CountBoard/releases/download/V1.3.0.2/CountBoard_1.3.0.2.exe",
+        "size": "17.7 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "secscore",
+    "name": "SecScore",
+    "category": "教学课堂",
+    "description": "SecScore 是一款面向班级的积分管理软件，由 SECTL 开发并开源（GPL-3.0），用来替代纸质计分表和 Excel：把学生名单、加扣分记录、排行榜、阶段结算统一管起来。学生支持手动添加或用 xlsx 批量导入（导入前可预览并指定「姓名列」，同名自动跳过）；积分管理可给单个学生加/扣分并填写理由，支持「预设理由」一键填充理由与分值，最近记录可撤销并自动回滚积分。排行榜支持按今天 / 本周 / 本月查看积分变化，可导出 XLSX，也能查看单个学生的操作明细。「结算并重新开始」会把当前未结算记录归档为一个阶段并清零积分，历史阶段随时回看。安全与数据方面提供管理密码 / 积分密码两级权限、锁定与只读模式、找回字符串，以及 JSON 数据导入导出备份。新版本还加入了自动加分规则、多面板仪表盘（支持 SQL 查询）、PostgreSQL 同步，以及内置 MCP / HTTP 服务供外部工具调用。",
+    "version": "v0.9.0",
+    "size": "约 5 MB ~ 79 MB（视平台）",
+    "requirements": "Windows 10/11（x64）、macOS（Intel）、Linux（x64）、Android",
+    "iconUrl": "https://raw.githubusercontent.com/SECTL/SecScore/main/src-tauri/icons/128x128.png",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux",
+      "android"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 安装版 · 主流 64 位系统，推荐下载这个",
+        "url": "https://stk.sectl.cn/d/SecScore/%E6%80%9D%E6%8B%93%E5%88%9B%E8%81%94%20Gihub%20%E9%95%9C%E5%83%8F%E6%BA%90/v0.9.0/SecScore_1.0.0_x64-setup.exe",
+        "size": "4.8 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 MSI 安装包 · 适合机房 / 多机批量部署",
+        "url": "https://stk.sectl.cn/d/SecScore/%E6%80%9D%E6%8B%93%E5%88%9B%E8%81%94%20Gihub%20%E9%95%9C%E5%83%8F%E6%BA%90/v0.9.0/SecScore_1.0.0_x64_en-US.msi",
+        "size": "6.5 MB",
+        "version": null
+      },
+      {
+        "name": "macOS（.dmg） · Intel 版；Apple 芯片需 Rosetta 转译运行",
+        "url": "https://stk.sectl.cn/d/SecScore/%E6%80%9D%E6%8B%93%E5%88%9B%E8%81%94%20Gihub%20%E9%95%9C%E5%83%8F%E6%BA%90/v0.9.0/SecScore_1.0.0_x64.dmg",
+        "size": "6.1 MB",
+        "version": null
+      },
+      {
+        "name": "Android（APK） · 通用安装包，安卓手机 / 平板",
+        "url": "https://stk.sectl.cn/d/SecScore/%E6%80%9D%E6%8B%93%E5%88%9B%E8%81%94%20Gihub%20%E9%95%9C%E5%83%8F%E6%BA%90/v0.9.0/app-universal-release.apk",
+        "size": "39.9 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64（.deb） · Debian / Ubuntu 等，双击安装",
+        "url": "https://stk.sectl.cn/d/SecScore/%E6%80%9D%E6%8B%93%E5%88%9B%E8%81%94%20Gihub%20%E9%95%9C%E5%83%8F%E6%BA%90/v0.9.0/SecScore_1.0.0_amd64.deb",
+        "size": "6.3 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64（.rpm） · Fedora / openSUSE 等",
+        "url": "https://stk.sectl.cn/d/SecScore/%E6%80%9D%E6%8B%93%E5%88%9B%E8%81%94%20Gihub%20%E9%95%9C%E5%83%8F%E6%BA%90/v0.9.0/SecScore-1.0.0-1.x86_64.rpm",
+        "size": "6.3 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64（.AppImage） · 免安装，赋予执行权限后直接运行",
+        "url": "https://stk.sectl.cn/d/SecScore/%E6%80%9D%E6%8B%93%E5%88%9B%E8%81%94%20Gihub%20%E9%95%9C%E5%83%8F%E6%BA%90/v0.9.0/SecScore_1.0.0_amd64.AppImage",
+        "size": "75.6 MB",
+        "version": null
+      },
+      {
+        "name": "全部平台 / 更多版本 · 网页：镜像目录（可浏览全部文件；注意 v1.0.x 目录为未发布的草稿构建，无法下载）。GitHub 原站：github.com/SECTL/SecScore/releases",
+        "url": "https://stk.sectl.cn/SecScore/%E6%80%9D%E6%8B%93%E5%88%9B%E8%81%94%20Gihub%20%E9%95%9C%E5%83%8F%E6%BA%90/v0.9.0/",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "classisland-innosetup",
+    "name": "ClassIsland",
+    "category": "教学课堂",
+    "description": "用InnoSetup制作的CI安装包，CI是一款功能强、可定制、跨平台，适用于班级多媒体屏幕的课表信息显示工具，可以一目了然地显示各种信息。",
+    "version": "2.1.0.1",
+    "size": "100MB+",
+    "requirements": "Windows10/11 (x64)",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/ClassIsland/ClassIsland@master/ClassIsland/Assets/AppLogo.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64安装版（自带.NET运行时） · .NET版本可能不是最新",
+        "url": "https://github.com/1312333/ClassIsland/releases",
+        "size": "108 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "inkeys",
+    "name": "智绘教 Inkeys",
+    "category": "教学课堂",
+    "description": "智绘教 Inkeys 是一款适用于 Windows 的屏幕批注工具，拥有丝滑流畅的高性能画笔、丰富强大的功能和不少贴心小设计，适用于触控屏和普通 PC。上课时直接在屏幕或课件上圈画讲解很方便，是希沃课堂助手、Luminalium 之外的又一优秀批注工具。",
+    "version": "20261019a",
+    "size": "18.5 MB",
+    "requirements": "Windows 7+",
+    "iconUrl": "https://soft-img.30405.com/2026/0727/07271532002464.png?resize=p_5,w_128",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "x64 · Github 下载源",
+        "url": "https://github.com/Alan-CRL/Inkeys/releases/download/20261019a/Inkeys20261019a-x64.zip",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "x86 · Github 下载源",
+        "url": "https://github.com/Alan-CRL/Inkeys/releases/download/20261019a/Inkeys20261019a-x86.zip",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "Arm64 · Github 下载源",
+        "url": "https://github.com/Alan-CRL/Inkeys/releases/download/20261019a/Inkeys20261019a-arm64.zip",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "luminalium",
+    "name": "Luminalium",
+    "category": "教学课堂",
+    "description": "Luminalium 是一款开源的演示与批注助手，定位为希沃课堂助手的替代方案。内置丰富的手写笔功能，笔宽、颜色、透明度都能调，支持 COM 画笔与内置渲染画笔切换，界面和交互可自由定制，适合喜欢折腾、想要更自由选择的老师。",
+    "version": "1.4.1.0 Momokan",
+    "size": "438 MB",
+    "requirements": "Windows 10/11（x64）",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/SECTL/Luminalium@default/icons/logo.svg",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows · GitHub 直链",
+        "url": "https://github.com/SECTL/Luminalium/releases/download/v1.4.1.0/lumn1410_release_windows_x86_64.zip",
+        "size": "438 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "ppt-touch-assist",
+    "name": "PPT Touch Assist",
+    "category": "教学课堂",
+    "description": "专为触控屏教学场景设计的 PPT 辅助工具，弥补了原生 PowerPoint 在触控交互上的不足，翻页、批注等操作更适合手指和触控笔，简单、轻量、上手即用，配合教室触摸大屏上课很顺手。",
+    "version": "1.2.0",
+    "size": "46.5 MB",
+    "requirements": "Windows 10/11（需触控屏）",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/RinLit-233-shiroko/PowerPoint-Touch-Assist@main/img/logo.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装版 · 需要触控屏或带触控的教室大屏",
+        "url": "https://github.com/RinLit-233-shiroko/PowerPoint-Touch-Assist/releases/download/Release1.2/v1.2.PowerPoint_Touch_Assist.zip",
+        "size": "46.5 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "viewpdf",
+    "name": "ViewPDF",
+    "category": "办公通讯",
+    "description": "ViewPDF 是一个用来「边演示边批注」的小工具，讲课、开会上都用得上。它能直接打开图片和 PDF，也能借助 Office / WPS / LibreOffice 把 Word 文档转成 PDF 来讲；批注有移动、书写、橡皮擦三种模式，支持压感笔锋与曲线平滑，颜色和粗细都能自己调，写错了可以逐步撤销、重做（最多 50 步）。界面自带简体中文等九种语言，画布、画笔、文件关联、缓存、日志等设置可以导出成 JSON 备份，还支持把文件类型关联到它，双击文档直接打开。安装包只有几 MB，启动快、占用小，适合装在教室一体机上随时讲题。",
+    "version": "v0.4.0",
+    "size": "约 6 MB",
+    "requirements": "Windows 10 及以上（需 WebView2）、Linux x86_64",
+    "iconUrl": "https://github.com/SECTL/ViewPDF/raw/main/src-tauri/icons/Square1024x1024Logo.png",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "linux"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Linux x64（AppImage） · viewpdf_0.2.5_amd64-linux.AppImage",
+        "url": "https://github.com/SECTL/ViewPDF/releases/download/v0.4.0/viewpdf_0.4.0_amd64-linux.AppImage",
+        "size": "90 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64（.deb） · viewpdf_0.2.5_amd64-linux.deb",
+        "url": "https://github.com/SECTL/ViewPDF/releases/download/v0.4.0/viewpdf_0.4.0_amd64-linux.deb",
+        "size": "7.1 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 安装版 · viewpdf_0.2.5_x64-setup.exe",
+        "url": "https://github.com/SECTL/ViewPDF/releases/download/v0.4.0/viewpdf_0.4.0_x64-setup.exe",
+        "size": "5.4 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64（MSI 安装版） · viewpdf_0.2.5_x64_en-US.msi",
+        "url": "https://github.com/SECTL/ViewPDF/releases/download/v0.4.0/viewpdf_0.4.0_x64_en-US.msi",
+        "size": "6.4 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "countdowncontrol",
+    "name": "CountDownControl 倒计时小工具",
+    "category": "教学课堂",
+    "description": "倒计时小工具 - 一款占用小，支持高度自定义的倒计时小工具\n\n本程序支持的功能有：\n 倒计时（基础功能）\n 深浅色模式\n 多种主题（可以自定义）\n 自定义倒计时显示格式以及文字\n 支持通过组策略配置策略\n 支持保存你的设置\n UIAccess 级别顶置（需要 Windows 8 以上版本）",
+    "version": "1.0.4.26081",
+    "size": "<1mb",
+    "requirements": "Windows",
+    "iconUrl": "https://api.classsoftwarehub.cn/api/icon?k=icon%2F2026%2F10%2Fmvaglof3-0kyv47-time.webp",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "x86 x64 安装包 · CountDownControl-1.0.4.26081-Bin.7z",
+        "url": "https://github.com/cjhdevact/CountDownControl/releases/download/1.0.4.26081/CountDownControl-1.0.4.26081-Bin.7z",
+        "size": "287 KB",
+        "version": null
+      },
+      {
+        "name": "Windows XP 组策略文件 · CountDownControl.adm",
+        "url": "https://github.com/cjhdevact/CountDownControl/releases/download/1.0.4.26081/CountDownControl.adm",
+        "size": "7.0 KB",
+        "version": null
+      },
+      {
+        "name": "Windows Vista+ 组策略文件 · CountDownControlAdmxs.exe",
+        "url": "https://github.com/cjhdevact/CountDownControl/releases/download/1.0.4.26081/CountDownControlAdmxs.exe",
+        "size": "363 KB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "easiauto",
+    "name": "EasiAuto",
+    "category": "教学课堂",
+    "description": "EasiAuto 是一款自动登录希沃白板的小工具，省掉每次手动输账号、密码的那一步：电脑开机后它会自动把希沃白板登录好，直接进到上课界面，简化课前准备流程。适合教室电脑使用固定账号、又不希望密码人尽皆知的场景。",
+    "version": "v1.2.1",
+    "size": "约 97 MB",
+    "requirements": "Windows 10 / 11（64 位）",
+    "iconUrl": "https://easiauto.0xabcd.dev/images/EasiAuto.webp",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "其他 压缩包 · EasiAuto_v1.2.1.zip",
+        "url": "https://github.com/hxabcd/EasiAuto/releases/download/v1.2.1/EasiAuto_v1.2.1.zip",
+        "size": "96.9 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "xwbb5",
+    "name": "希沃白板",
+    "category": "教学课堂",
+    "description": "希沃白板5 是希沃生态里的互动课件与授课工具，支持课件制作、课堂活动、投屏互动等功能。这里提供官方正版下载入口，装到的就是最新版本，避免第三方渠道夹带捆绑。",
+    "version": "5.2.4.11582",
+    "size": "195 MB",
+    "requirements": "Windows 7 +",
+    "iconUrl": "https://imlizhi-store-https.seewo.com/937781dc53634b05b6d062bc76580938",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows · Linux版可访问官网下载；官方按产品码下发，永远是最新版",
+        "url": "https://e.seewo.com/download/file?code=EasiNote5",
+        "size": "227 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "seewo-assistant",
+    "name": "希沃课堂助手",
+    "category": "教学课堂",
+    "description": "希沃官方出品的 PPT 播放辅助工具，为 PowerPoint 和 WPS 添加类似希沃白板5 的便捷翻页按钮，并支持手机扫码连接，实现手机远程翻页和传屏。讲课时不用一直守在电脑前，站在讲台下面也能切换课件。",
+    "version": "0.0.3.1309",
+    "size": "164 MB",
+    "requirements": "Windows 10/11",
+    "iconUrl": "https://ts2.tc.mm.bing.net/th/id/OIP-C.qgw6ICv5s8k08zfenUmQJAAAAA?w=108&h=108&c=1&bgcl=ae6748&r=0&o=7&dpr=2&pid=ImgRC&rm=3",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装版 · 希沃课堂助手（教师端），支持 Win10/11；官方按产品码下发，永远是最新版",
+        "url": "https://e.seewo.com/download/file?code=SeewoIwbAssistant",
+        "size": "164 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "xiwopinke",
+    "name": "希沃品课",
+    "category": "教学课堂",
+    "description": "希沃品课是希沃出品的课堂互动与教学工具，方便老师在课堂上组织互动、推送学习资源。这里提供官方正版下载入口，避免从第三方渠道下载到带捆绑的版本。",
+    "version": "1.2.43.7326",
+    "size": "340 MB",
+    "requirements": "Windows 10 +",
+    "iconUrl": "https://imlizhi-store-https.seewo.com/12f46683065e40e5b6d5db8a8b1cbab2",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows",
+        "url": "https://e.seewo.com/download/file?code=seewoPincoTeacher",
+        "size": "339 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "xwgjayxingz",
+    "name": "希沃管家",
+    "category": "教学课堂",
+    "description": "需要加入学校集控用",
+    "version": "1.6.7.4018",
+    "size": "121MB(Windows)",
+    "requirements": "Windows7及以上，通信UOS，银河麒麟",
+    "iconUrl": "https://soft-img.30405.com/2026/0417/04171652553162.jpg?resize=p_5,w_128",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "linux"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x86安装版",
+        "url": "https://e.seewo.com/download/file?code=SeewoServiceSetup",
+        "size": "121 MB",
+        "version": null
+      },
+      {
+        "name": "统信UOS x86安装版",
+        "url": "https://cstore-pub-cos-seewo-report-tx.seewo.com/seewo-report_uwixlyiphhulnhlwhyhmmzwvyvhhihhh?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDJUXMxJRLzPaeMp20jDSTFl23pLcdPwDF%26q-sign-time%3D1786413405%3B2101773405%26q-key-time%3D1786413405%3B2101773405%26q-header-list%3Dhost%26q-url-param-list%3Dresponse-content-disposition%26q-signature%3De58cf6355fed3e07995accf90753bf6ed44964ba&response-content-disposition=attachment%3Bfilename%3D%22com.seewo.terminalmanager_neutral_3.0.6.716_uos_amd64.deb%22%3Bfilename%2A%3Dutf-8%27%27com.seewo.terminalmanager_neutral_3.0.6.716_uos_amd64.deb",
+        "size": "245MB",
+        "version": null
+      },
+      {
+        "name": "银河麒麟 x86安装版",
+        "url": "https://cstore-pub-cos-seewo-report-tx.seewo.com/seewo-report_uwixnlnxhhulnhlwhyhoyiwwvxhhihhh?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDJUXMxJRLzPaeMp20jDSTFl23pLcdPwDF%26q-sign-time%3D1786497518%3B2101857518%26q-key-time%3D1786497518%3B2101857518%26q-header-list%3Dhost%26q-url-param-list%3Dresponse-content-disposition%26q-signature%3Dacad03d0e6204bb52cfcc0a2a8b7bce6bf91576d&response-content-disposition=attachment%3Bfilename%3D%22com.seewo.terminalmanager_neutral_3.0.6.716_kylin_amd64.deb%22%3Bfilename%2A%3Dutf-8%27%27com.seewo.terminalmanager_neutral_3.0.6.716_kylin_amd64.deb",
+        "size": "239MB",
+        "version": null
+      },
+      {
+        "name": "银河麒麟ARM安装版",
+        "url": "https://cstore-pub-cos-seewo-report-tx.seewo.com/seewo-report_uwixjjizhhulnhlwhwvluimyovphihhh?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDJUXMxJRLzPaeMp20jDSTFl23pLcdPwDF%26q-sign-time%3D1775114135%3B2090474135%26q-key-time%3D1775114135%3B2090474135%26q-header-list%3Dhost%26q-url-param-list%3Dresponse-content-disposition%26q-signature%3D2bc841709607e514f4ba201d889f3a27a2f0b269&response-content-disposition=attachment%3Bfilename%3D%22com.seewo.terminalmanager_neutral_3.0.5.619_kylin_aarch64.deb%22%3Bfilename%2A%3Dutf-8%27%27com.seewo.terminalmanager_neutral_3.0.5.619_kylin_aarch64.deb",
+        "size": "216MB",
+        "version": null
+      },
+      {
+        "name": "银河麒麟龙芯架构安装版",
+        "url": "https://cstore-pub-cos-seewo-report-tx.seewo.com/seewo-report_uwiwzuizhhulnhlwhwvljmyyzphhihhh?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDJUXMxJRLzPaeMp20jDSTFl23pLcdPwDF%26q-sign-time%3D1775097960%3B2090457960%26q-key-time%3D1775097960%3B2090457960%26q-header-list%3Dhost%26q-url-param-list%3Dresponse-content-disposition%26q-signature%3D05819b3ef2b70c373b838e2b071b2abfefbfece5&response-content-disposition=attachment%3Bfilename%3D%22com.seewo.terminalmanager_neutral_3.0.5.619_kylin_loongarch64.deb%22%3Bfilename%2A%3Dutf-8%27%27com.seewo.terminalmanager_neutral_3.0.5.619_kylin_loongarch64.deb",
+        "size": "227MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "locktime",
+    "name": "LockTime",
+    "category": "教学课堂",
+    "description": "时钟锁屏 - 一个具有深/浅色主题，云母/亚克力背景，Fluent UI 2界面的时钟锁屏（屏保），可以作为屏保使用，也可以自习时在教学白板上使用。",
+    "version": "2.0.2.25013",
+    "size": "未知",
+    "requirements": "Windows 7+",
+    "iconUrl": "https://api.classsoftwarehub.cn/api/icon?k=icon%2F2026%2F10%2Fmv7mih7b-8qcbob-time.webp",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "程序文件 · LockTime-2.0.2.24013-Bin.7z",
+        "url": "https://github.com/cjhdevact/LockTime/releases/download/2.0.2.25013/LockTime-2.0.2.24013-Bin.7z",
+        "size": "2.9 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "xwspztayxingz",
+    "name": "希沃视频展台",
+    "category": "教学课堂",
+    "description": "希沃视频展台配合实物展台（高拍仪）使用，能把课本、试卷、作业本、实验过程实时投到教室大屏上放大展示，讲题、评讲作业时很常用。支持画面放大缩小、旋转、批注与拍照留存，可以搭配希沃白板联动使用，让讲评内容直接落在白板板书里。",
+    "version": "2.1.0.4419",
+    "size": "约 143 MB",
+    "requirements": "Windows 7 及以上",
+    "iconUrl": "https://e.seewo.com/static/images/logo_camera_48@2x-77ceecf8ae.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows安装版 · 官方按产品码下发，永远是最新版",
+        "url": "https://e.seewo.com/download/file?code=EasiCamera",
+        "size": "143 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "class-optimizer",
+    "name": "班级优化大师",
+    "category": "教学课堂",
+    "description": "班级优化大师是希沃生态中的课堂管理工具，通过加分减分、随机点名、小组评比等方式对学生进行多维度评价，帮助老师活跃课堂氛围、管理课堂纪律，也是希沃生态里的重要教学工具。",
+    "version": "2.1.0.3825",
+    "size": "148 MB",
+    "requirements": "Windows 7 ~ 11",
+    "iconUrl": "https://care.seewo.com/favicon.ico",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 官方下载 · 希沃官方按产品码下发，永远是最新版",
+        "url": "https://e.seewo.com/download/file?code=EasiCare_PC",
+        "size": "147 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "seewoxzqayxibgz",
+    "name": "SEEVVO全家桶一剑下崽弃",
+    "category": "教学课堂",
+    "description": "B站某UP主制作的一键下载希沃软件全家桶\n注意他默认会把希沃白板的启动页更换成ikun，如果你们老师开不起玩笑的话，记得及时取消勾选",
+    "version": "v2.4.0",
+    "size": "25MB",
+    "requirements": "Windows",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/HelloGaoo/SeevvoDownloader@main/icon/002.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "网盘下载(官方下载链接)",
+        "url": "https://wwbrf.lanzoul.com/tp/i4rXK3j22vve?webtp=ADEFZQ9rD2pTMwFjBWQHPlEzDjkDIFRkADBTYAFrUGEAMlQzDGcEZActBWJQPFdlViJTZFM5U2JSe1RjUD4AMQAuBWMPag9iU3kBZAVpB2JROA47AzpUZgAwUzcBO1BhAGJUNwxnBGEHZwU2UD1XN1ZqU2VTNFNlUmVUZlA6AGcAMgVqD2YPa1M1ASsFYQ_c_c",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "maxhub-whiteboard",
+    "name": "MAXHUB 白板书写",
+    "category": "教学课堂",
+    "description": "MAXHUB白板书写软件主要用于企业会议、课堂教学中的书写批注、多人协作和内容保存分享，支持双指手势、智能图形识别、OCR、插入多媒体等功能，轻量而又强大。",
+    "version": "6.8.0.7815",
+    "size": "62.26 MB",
+    "requirements": "Windows 10/11 x64",
+    "iconUrl": "https://ts4.tc.mm.bing.net/th/id/ODF.ewg9Rbksu5iWIOduz1yp8w?w=32&h=32&qlt=90&pcl=fffffa&r=0&o=6&pid=1.2",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 安装版",
+        "url": "https://cstore-pri-pinco-bs.seewo.com/seewo-pinco-private/uwiwyzjohjkljhhvhwzzijmmqjphihhh.exe?Expires=1790848413&OSSAccessKeyId=LTAI5tDfDk7waUMpMY5x13JB&Signature=bRUzeD3Y066wah7ElWEUFKSMyHk%3D&response-content-disposition=attachment%3Bfilename%3D%22WhiteboardSetup.exe%22%3Bfilename%2A%3Dutf-8%27%27WhiteboardSetup.exe",
+        "size": "62.26 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "yjxzsayxingz",
+    "name": "海康易教学助手",
+    "category": "教学课堂",
+    "description": "一个类似于希沃白板的软件，但是自带PPT组件和画笔功能，在任何页面都可以调用画笔，全屏PPT后自动适配PPT翻页按键等，自带白板功能，无需登录也能使用大部分功能",
+    "version": "1.26.4",
+    "size": "353.7MB",
+    "requirements": "Windows系统(一般建议Windows10)",
+    "iconUrl": "https://www.hik-cloud.com/teach-prepare-web/favicon.ico",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows安装版",
+        "url": "https://yunmdload.hik-cloud.com/teach/download/cvtNew/setupPackage/V1.26.4/CloudviewTeach_V1.26.4.exe",
+        "size": "353.7MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "seewo-custom-start",
+    "name": "Seewo-Custom_Start",
+    "category": "教学课堂",
+    "description": "用定制启动器点缀万物！",
+    "version": "V4.0",
+    "size": "未知",
+    "requirements": "Windows",
+    "iconUrl": "https://raw.githubusercontent.com/SRInternet-Studio/Seewo-Custom_Start/master/en.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装版 · SeewoStart-Installer.exe",
+        "url": "https://github.com/SRInternet-Studio/Seewo-Custom_Start/releases/download/V4.0/SeewoStart-Installer.exe",
+        "size": "121 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "WPS",
+    "name": "WPS Office",
+    "category": "办公通讯",
+    "description": "WPS Office 官方安装包。体积小、启动快，文字 / 表格 / 演示三件套齐全，兼容微软 Office 的文档格式，教室电脑上打开课件、做表格、看文档都很顺手，个人版免费使用。",
+    "version": "12.2.0.23196",
+    "size": "未知",
+    "requirements": "Windows 7+",
+    "iconUrl": "https://ts3.tc.mm.bing.net/th/id/OSAAS.7CC8BBB60799D19E4D663503A3BEF8F2?w=52&h=52&c=17&rs=1&r=0&o=6&dpr=1.1&pid=TechQna",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装版",
+        "url": "https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/12.2.0.23196/500.1001/WPSOffice_23196.exe",
+        "size": "255 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "wps-edu-exam-edition",
+    "name": "WPS教育考试专用版",
+    "category": "办公通讯",
+    "description": "WPS不用过多介绍了吧",
+    "version": "未知",
+    "size": "约 150 MB（解压后）",
+    "requirements": "Windows 7 / 10 / 11",
+    "iconUrl": "https://img.remit.ee/i/UPqzPvVlOYxr",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装版",
+        "url": "https://ncre.neea.edu.cn/res/Home/2012/1ab1f38f3a81af338dbb4f6495568f28.rar",
+        "size": "约 150 MB（未解压）",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "wps2019ayxingz",
+    "name": "WPS2019",
+    "category": "办公通讯",
+    "description": "WPS 2019版，没有繁杂的AI功能，只保留纯净的办公软件功能，不用登录也能使用所有功能，适合内存吃紧电脑使用\n注意！注意！注意！\n此软件有自动更新，下载安装好以后请及时在开始菜单内找到WPS文件夹，选择配置工具，点击高级，在升级设置里面关闭自动更新，并且如果弹出升级提示，千万不要升级\n另:在配置工具里面的功能定制等板块内，把所有的模板推荐等关闭，可以减少广告",
+    "version": "10314.12012.2019",
+    "size": "153.4MB",
+    "requirements": "Windows7及以上",
+    "iconUrl": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxkCe.4p63xIvr1qDSfuSWK.sz.keIN7E0AXJzohbfNte2GW79d7U08faV1_X.54FqyQjYHOZ8CqMpfQcnu0kDAQ-&format=source&h=134",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows安装版 · 注意看简介",
+        "url": "https://pacakge.cache.wpscdn.cn/wps/download/W.P.S.10314.12012.2019.exe",
+        "size": "153.4MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "officetoolplus",
+    "name": "Office Tool Plus",
+    "category": "办公通讯",
+    "description": "Office Tool Plus 把微软官方的 Office 部署工具（ODT）做成了图形界面，可以自由选择 Office 版本、组件和语言下载安装，也提供多种激活相关的管理功能。给教室电脑装 Office 时不用去啃一堆命令行，点几下就完事。",
+    "version": "v11.8.50.0",
+    "size": "10 MB ~ 78 MB",
+    "requirements": "Windows 7+",
+    "iconUrl": "https://www.officetool.plus/images/office-tool-plus-logo-large.webp",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 含运行时（推荐） · 自带 .NET 运行时，解压即用；官网另有 7z 版与其它镜像源",
+        "url": "https://github.com/YerongAI/Office-Tool/releases/download/v11.8.50.0/Office_Tool_with_runtime_v11.8.50.0_x64.zip",
+        "size": "77.7 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 精简版 · 不含运行时，体积小；系统若已有 .NET 选这个",
+        "url": "https://github.com/YerongAI/Office-Tool/releases/download/v11.8.50.0/Office_Tool_v11.8.50.0_x64.zip",
+        "size": "10.3 MB",
+        "version": null
+      },
+      {
+        "name": "官网介绍 / 下载页 · 有多条国内镜像源，官网下载慢时可以走这里",
+        "url": "https://www.officetool.plus/zh-cn/introduction/download.html",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "wechat",
+    "name": "微信",
+    "category": "办公通讯",
+    "description": "微信 Windows 版官方安装包。教室电脑上装一个，方便接收老师、家长发来的课件、通知和文件，也支持截图、文件传输与聊天记录备份，很多班级群的消息也不用再掏手机看。",
+    "version": "4.2.0.9",
+    "size": "约 245 MB",
+    "requirements": "Windows 7+",
+    "iconUrl": "https://ts4.tc.mm.bing.net/th/id/OIP-C.Q3gcrpIwxi7eNGhb-MMC8gHaHa?w=108&h=108&c=1&bgcl=cc5a44&r=0&o=7&dpr=2&pid=ImgRC&rm=3",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装版 · 官方最新版安装包，点了在本页直接开始下载；版本由体检每周自动核对更新",
+        "url": "https://dldir1v6.qq.com/weixin/Universal/Windows/WeChatWin_4.2.0.exe",
+        "size": "248 MB",
+        "version": null
+      },
+      {
+        "name": "官网下载页 · 想自己挑版本、或需要其他平台时用",
+        "url": "https://weixin.qq.com/",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "wxxpayxingz",
+    "name": "微信老版本",
+    "category": "办公通讯",
+    "description": "微信 3.2.1，Windows 版微信的老版本安装包。基础聊天、图片与文件收发、群聊等主流功能都在，能正常登录使用；体积比 4.x 版小得多，对 CPU、内存的要求也低，适合教室里那些装不上新版微信、或者装上新版就卡的旧电脑。注意：微信官方已停止为 3.x 版本推送更新，部分新功能不可用；如果机器性能允许，建议优先用站内的微信新版。",
+    "version": "3.2.1",
+    "size": "约 130 MB",
+    "requirements": "Windows XP 及以上",
+    "iconUrl": "https://pc3.gtimg.com/softmgr/logo/48/27349_48_1623835272.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows安装版 · 腾讯官方 CDN 稳定地址，无需签名、不会过期",
+        "url": "https://dldir1.qq.com/weixin/Windows/WeChat_for_XP_SP3_To_Vista.exe",
+        "size": "130.4MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "wechat-input",
+    "name": "微信输入法",
+    "category": "其他工具",
+    "description": "微信输入法，简洁好用无广告，优点是比搜狗输入法更纯洁，缺点是要绑定微信才能发挥除打字外的其他附加功能 (如剪切板同步，传图等)\n主要针对机房，白板无物理键盘可能不适用",
+    "version": "未知",
+    "size": "≈28MB",
+    "requirements": "Windows/iOS/Android/macOS/HarmonyOS",
+    "iconUrl": "https://bee-reg-ab.imagency.cn/mr/6874/26/6ac0f41de66ab.png",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "android",
+      "ios"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows · 本链接为2.1.4版本直连，如需下载还请移步官网",
+        "url": "https://download.z.weixin.qq.com/app/win/wetype_installer_official_p_66.exe",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "qq",
+    "name": "QQ",
+    "category": "办公通讯",
+    "description": "QQ Windows 版官方安装包，支持消息、文件传输、屏幕共享、远程协助等功能。教室里收发课件、传大文件都很方便，遇到老师电脑出问题还能用远程协助应急帮一把。",
+    "version": "9.9.33.52230",
+    "size": "未知",
+    "requirements": "Windows 7+",
+    "iconUrl": "https://ts1.tc.mm.bing.net/th/id/OIP-C.vAfIO_n4xCHQMfn1ga7mQwHaHa?w=108&h=108&c=1&bgcl=4184f9&r=0&o=7&dpr=2&pid=ImgRC&rm=3",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装版",
+        "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.33/release/497e2f1f/QQ_9.9.33_260813_x64_01.exe",
+        "size": "300 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "dingtalk",
+    "name": "钉钉",
+    "category": "办公通讯",
+    "description": "钉钉是阿里巴巴集团推出的企业级智能办公平台，集即时通讯、视频会议、考勤打卡、审批流程、文档协作等功能于一体，支持 Windows、macOS、手机全平台，是学校和公司日常办公、远程会议的常用工具。",
+    "version": "9.0.1",
+    "size": "约 294 MB",
+    "requirements": "Windows 7+",
+    "iconUrl": "https://pc3.gtimg.com/softmgr/logo/48/26980_48_1775182015.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "该应用更新频繁，其他版本下载故引导至官网",
+        "url": "https://www.dingtalk.com/download",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "tencent-meeting",
+    "name": "腾讯会议",
+    "category": "办公通讯",
+    "description": "腾讯会议是腾讯推出的高清流畅、便捷易用的云视频会议产品，支持屏幕共享、美颜、背景虚化、会议录制等功能，网课和远程开会都很常用。支持 Windows、macOS、手机端，也提供网页入会方式。",
+    "version": "3.46.11.413",
+    "size": "约 280 MB",
+    "requirements": "Windows 7+",
+    "iconUrl": "https://meeting.tencent.com/favicon.ico",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装版 · 其他版本（macOS / 手机端等）见官网",
+        "url": "https://updatecdn.meeting.qq.com/cos/ea5a12b3227f8be5c785cda6dbfb73f6/TencentMeeting_0300000000_3.46.11.413_x86_64.publish.exe",
+        "size": "288 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "chrome",
+    "name": "Google Chrome",
+    "category": "办公通讯",
+    "description": "Google Chrome 官方浏览器的离线安装包下载入口。网络环境不好、或者要给一批电脑装机时，用离线包比在线安装省事得多。Chrome 兼容性好、扩展丰富，是教室电脑上的常用浏览器。",
+    "version": "156.0.8078.48",
+    "size": "约 12 MB ~ 159 MB",
+    "requirements": "Windows 10+",
+    "iconUrl": "https://www.google.cn/chrome/static/images/chrome-logo-m100.svg",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 64位 离线安装包 · 推荐；官方「始终最新」离线包，装机不用联网等",
+        "url": "https://dl.google.com/chrome/install/standalonesetup64.exe",
+        "size": "约 159 MB",
+        "version": null
+      },
+      {
+        "name": "Windows 64位 在线安装包 · 体积小、下载快，安装时需要联网",
+        "url": "https://dl.google.com/chrome/install/latest/chrome_installer.exe",
+        "size": "约 12 MB",
+        "version": null
+      },
+      {
+        "name": "Windows 64位 企业版 MSI · 适合批量静默部署（msiexec /i），同样是官方始终最新地址",
+        "url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi",
+        "size": "约 160 MB",
+        "version": null
+      },
+      {
+        "name": "官网下载页 · 如果使用 edge 浏览器打开，收到 edge 浏览器挽留小广告的就是正版！",
+        "url": "https://www.google.cn/chrome/",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "microsoft-edge",
+    "name": "Microsoft Edge",
+    "category": "办公通讯",
+    "description": "Microsoft Edge 是基于 Chromium 的现代化浏览器，与 Windows 系统深度集成，支持扩展、集锦、垂直标签页、朗读等功能，装完即用、无需额外配置。这里提供两种装法：企业版 MSI 离线安装包（x64 / x86），地址由微软官方固定维护、始终指向最新版，适合教室大屏批量部署或给没有网络的机器安装；机器能联网的话，也可以直接走 Microsoft Store 安装。",
+    "version": "跟随官网",
+    "size": "约 203 MB（x64 离线包）",
+    "requirements": "Windows 7 ~ 11、macOS、Linux",
+    "iconUrl": "https://ts3.tc.mm.bing.net/th/id/OIP-C.jpJ_nRsuWnOpLIHCQ9QonAHaHa?w=108&h=108&c=1&bgcl=963369&r=0&o=7&dpr=2&pid=ImgRC&rm=3",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 离线安装包（MSI） · 企业版离线包，适合教室大屏批量部署或没网的机器；微软官方固定地址，始终指向最新版",
+        "url": "https://go.microsoft.com/fwlink/?linkid=2093437",
+        "size": "约 203 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x86 离线安装包（MSI） · 32 位系统 / 老机器用",
+        "url": "https://go.microsoft.com/fwlink/?linkid=2093505",
+        "size": "约 180 MB",
+        "version": null
+      },
+      {
+        "name": "通过 Microsoft Store 下载",
+        "url": "https://apps.microsoft.com/detail/xpfftq037jwmhs?gl=CN&hl=zh-CN",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "firefox",
+    "name": "Firefox 火狐浏览器",
+    "category": "办公通讯",
+    "description": "Firefox 由 Mozilla 打造，开源免费、注重用户隐私和数据安全，支持 Windows、macOS、Linux 全平台。这里提供 64 位 MSI 安装包，方便给教室电脑静默安装或批量部署。",
+    "version": "159.0",
+    "size": "约 78 MB ~ 89 MB",
+    "requirements": "Windows 7 ~ 11、macOS、Linux",
+    "iconUrl": "https://store-images.s-microsoft.com/image/apps.7279.14473293538384797.bcb417dc-ffbe-444e-9589-e6a25f04ad52.156eed19-aa35-4e69-96a7-c11abd7f887d?h=134",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "通过 Microsoft Store 下载",
+        "url": "https://apps.microsoft.com/detail/9nzvdkpmr9rd?hl=zh-Hans&gl=US",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "Windows 64位 安装版 · 官方「始终最新」地址，点了在本页直接开始下载",
+        "url": "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=zh-CN",
+        "size": "约 89 MB",
+        "version": null
+      },
+      {
+        "name": "Windows 64位 MSI 安装包 · 适合批量静默部署；同样是官方最新地址",
+        "url": "https://download.mozilla.org/?product=firefox-msi-latest-ssl&os=win64&lang=zh-CN",
+        "size": "约 89 MB",
+        "version": null
+      },
+      {
+        "name": "Windows 32位 安装版 · 32 位系统使用；同样是官方最新地址",
+        "url": "https://download.mozilla.org/?product=firefox-latest&os=win&lang=zh-CN",
+        "size": "约 78 MB",
+        "version": null
+      },
+      {
+        "name": "官网下载页 · 还有 macOS / Linux 与各语言版本",
+        "url": "https://www.firefox.com/zh-CN/download/all/desktop-release/",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "Supermium",
+    "name": "Supermium",
+    "category": "办公通讯",
+    "description": "Supermium 是一款基于 Chromium 的浏览器，专门针对旧版 Windows（如 Win7、Win8.1）做了兼容优化，让老系统也能跑上较新的 Chromium 内核。教室里的老机器如果装不了新版 Chrome 或 Edge，可以试试它。",
+    "version": "v150-r2",
+    "size": "110 MB+",
+    "requirements": "Windows 7+",
+    "iconUrl": "https://img.pcsoft.com.cn/soft/202605/134937-69fad6712a6a6.jpg",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 64 位",
+        "url": "https://github.com/win32ss/supermium/releases/download/v150-r2.01/supermium_150_64_setup.exe",
+        "size": "133 MB",
+        "version": null
+      },
+      {
+        "name": "Windows 32 位",
+        "url": "https://github.com/win32ss/supermium/releases/download/v150-r2.01/supermium_150_32_setup.exe",
+        "size": "119 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "centbrowser",
+    "name": "CentBrowser百分浏览器",
+    "category": "办公通讯",
+    "description": "百分浏览器是一款追求速度、简约和安全的网络浏览器，它基于最新的Chromium开源内核进行优化开发，提供了鼠标手势",
+    "version": "5.3.1184.25",
+    "size": "110MB",
+    "requirements": "Windows7~11(x64)",
+    "iconUrl": "https://img03.sogoucdn.com/v2/thumb/resize/w/80/h/80?appid=100520147&url=https%3A%2F%2Fcu003.www.duba.net%2Fduba%2Ftools%2Fdubatools%2Fsoftmgricon%2F70006737.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 安装版",
+        "url": "https://static.centbrowser.cn/win_stable/5.3.1184.25/centbrowser_5.3.1184.25_x64.exe",
+        "size": "117 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 便携版",
+        "url": "https://static.centbrowser.cn/win_stable/5.3.1184.25/centbrowser_5.3.1184.25_x64_portable.exe",
+        "size": "149 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "360-speed-browser",
+    "name": "360极速浏览器",
+    "category": "办公通讯",
+    "description": "360 极速浏览器基于 Chromium 内核，启动速度快、浏览流畅，支持 Chrome 扩展，适合教室大屏日常上网使用。提供 64 位和 32 位版本，按电脑情况选一个装即可。",
+    "version": "23.1.1253.64",
+    "size": "144 MB",
+    "requirements": "Windows XP +",
+    "iconUrl": "https://p2.ssl.qhimg.com//dm/72_72_100/t01e07b53460b856918.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 64位 官方下载 · 64位版本，推荐配置较好的电脑使用",
+        "url": "https://sedl.360tpcdn.com/cse/360csex_23.1.1253.64.exe",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "Windows 32位 官方下载 · 32位版本，适合老旧电脑",
+        "url": "https://sedl.360tpcdn.com/cse/360cse_23.0.1253.0.exe",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "7-zip",
+    "name": "7-Zip",
+    "category": "系统工具",
+    "description": "7-Zip 是一款开源免费的文件压缩 / 解压软件，压缩率高、解压速度快，支持 7z、ZIP、RAR、ISO 等多种格式。轻量纯净、无广告无捆绑，是教室大屏上的必备工具。",
+    "version": "26.05",
+    "size": "1.6 MB",
+    "requirements": "Windows XP ~ 11、Linux x64 / x86 / ARM64",
+    "iconUrl": "https://ts2.tc.mm.bing.net/th/id/ODF.tW1DZ4ND3pOb43W0A2d2fQ?w=32&h=32&qlt=90&pcl=fffffa&r=0&o=6&pid=1.2",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "linux"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 64位 安装版 · 64位系统推荐",
+        "url": "https://www.7-zip.org/a/7z2605-x64.exe",
+        "size": "1.6 MB",
+        "version": null
+      },
+      {
+        "name": "Windows 32位 安装版 · 32位系统使用",
+        "url": "https://www.7-zip.org/a/7z2605.exe",
+        "size": "1.3 MB",
+        "version": null
+      },
+      {
+        "name": "Windows 64位 Github源 安装版 · 64位系统推荐",
+        "url": "https://github.com/ip7z/7zip/releases/download/26.05/7z2605-x64.msi",
+        "size": "1.9 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64",
+        "url": "https://github.com/ip7z/7zip/releases/download/26.05/7z2605-linux-x64.tar.xz",
+        "size": "1.5 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x86",
+        "url": "https://github.com/ip7z/7zip/releases/download/26.05/7z2605-linux-x86.tar.xz",
+        "size": "1.6 MB",
+        "version": null
+      },
+      {
+        "name": "Linux Arm64",
+        "url": "https://github.com/ip7z/7zip/releases/download/26.05/7z2605-linux-arm64.tar.xz",
+        "size": "1.3 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "nanazip",
+    "name": "NanaZip",
+    "category": "系统工具",
+    "description": "NanaZip 是一个面向现代 Windows 体验的开源文件归档器，由知名开源文件归档器 7-Zip 的源代码分支而成。\nNanaZip is an open source file archiver intended for the modern Windows experience, forked from the source code of well-known open source file archiver 7-Zip.",
+    "version": "7.0.1882.0",
+    "size": "约 20 MB",
+    "requirements": "Windows 10/11 64/Arm64 位",
+    "iconUrl": "https://store-images.s-microsoft.com/image/apps.49525.14049914514725900.83fe2639-d834-4bec-93ba-5d356b6e6eec.3d735516-7c26-4804-96ee-6954d7d1c8ad?h=134",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "UWP 安装包（x64/Arm64） · GitHub 直链",
+        "url": "https://github.com/M2Team/NanaZip/releases/download/7.0.1882.0/NanaZip_7.0.1882.0.msixbundle",
+        "size": "12 MB",
+        "version": null
+      },
+      {
+        "name": "便携版安装包（x64/Arm64） · GitHub 直链",
+        "url": "https://github.com/M2Team/NanaZip/releases/download/7.0.1882.0/NanaZip_7.0.1882.0_Binaries.zip",
+        "size": "8.1 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "peazip",
+    "name": "PeaZip 解压缩工具",
+    "category": "系统工具",
+    "description": "PeaZip 是一款开源免费的压缩/解压软件，支持 7z、zip、tar、gz、bz2、iso 等 200 多种格式的读取与常见格式的压缩，内置 AES-256 加密、分卷、文件校验、批量重命名等实用功能。界面简洁、无广告、无捆绑，可完全替代收费的压缩软件。安装版直接装即可，便携版解压即用。",
+    "version": "11.4.0",
+    "size": "8 MB ~ 16 MB",
+    "requirements": "Windows 7 ~ 11（32 / 64 位）",
+    "iconUrl": "https://peazip.github.io/peazip_ico24.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "安装版（64 位） · 推荐；常规 64 位系统选这个",
+        "url": "https://github.com/peazip/PeaZip/releases/download/11.4.0/peazip-11.4.0.WIN64.exe",
+        "size": "11 MB",
+        "version": null
+      },
+      {
+        "name": "安装版（32 位） · 老机器 / 32 位系统用",
+        "url": "https://github.com/peazip/PeaZip/releases/download/11.4.0/peazip-11.4.0.WINDOWS.exe",
+        "size": "8.3 MB",
+        "version": null
+      },
+      {
+        "name": "便携版（64 位） · 免安装，解压即用",
+        "url": "https://github.com/peazip/PeaZip/releases/download/11.4.0/peazip_portable-11.4.0.WIN64.zip",
+        "size": "16 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "bandizip6.29",
+    "name": "Bandizip 6.29",
+    "category": "系统工具",
+    "description": "Bandizip 是一款界面美观、功能强大的压缩软件，支持多种压缩格式并内置图片预览，压缩和解压速度都很快。6.29 是最后一个官方无广告的免费版本，之后的版本开始加入广告，建议电教委员把这个版本收好，装了就一直用。",
+    "version": "6.29",
+    "size": "约 7 MB",
+    "requirements": "Windows 7 ~ 11",
+    "iconUrl": "https://pc3.gtimg.com/softmgr/logo/48/10268_48_1775185920.jpg",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装版 · 最后一个官方无广告版，强烈推荐收藏",
+        "url": "https://it.bandisoft.com/bandizip/dl.php?old",
+        "size": "约 7 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "winrar",
+    "name": "WinRAR",
+    "category": "系统工具",
+    "description": "用于解压压缩包",
+    "version": "7.23",
+    "size": "未知",
+    "requirements": "WinRAR 7.10及以上支持最低系统win7 x64或更高版本",
+    "iconUrl": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBcjBw68iTR2FjqoZMHl49Qvqux8PKlo5toJVHxAqhcMwVcEXXTPCJKOuZVvStMzE4R0XoV3ULYK_GZtcSMpac4I-&format=source&h=134",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 安装版 · RARLAB 官方简体中文版；32 位与便携版可在官网下载页获取",
+        "url": "https://www.rarlab.com/rar/winrar-x64-723sc.exe",
+        "size": "3.8 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "directx-repair",
+    "name": "DirectX 修复工具",
+    "category": "系统工具",
+    "description": "DirectX 修复工具（DirectX Repair）由国内作者 VBcom 开发，是解决「缺少 d3dx9_43.dll 等 dll 导致程序无法启动」「游戏提示缺少 DirectX 组件」等问题的常用工具。可一键检测并修复 DirectX 组件，同时支持 C++ 运行库的检测与安装。推荐下载「增强版」：体积比标准版小，且自带离线数据包，断网也能完成修复。压缩包解压后运行其中的 exe 即可，纯绿色免安装。",
+    "version": "4.4.0.36953",
+    "size": "116 MB（7z）/ 198 MB（zip）",
+    "requirements": "Windows XP ~ 11（32 / 64 位）",
+    "iconUrl": "https://res.callmysoft.com/wc/image/2025-07/f32eed17110e554b.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "增强版（蓝奏云） · 推荐；自带离线数据包，断网也能修复。官方发布页：zysoftware.top/post/10.html",
+        "url": "https://zhangyue667.lanzouh.com/DirectXRepairEnhanced",
+        "size": "116 MB",
+        "version": null
+      },
+      {
+        "name": "标准版（蓝奏云） · 体积更小；C++ 组件需联网下载",
+        "url": "https://zhangyue667.lanzouh.com/DirectXRepair",
+        "size": "30.7 MB",
+        "version": null
+      },
+      {
+        "name": "增强版（百度网盘） · 提取码：rty6；蓝奏云打不开时用这个",
+        "url": "https://pan.baidu.com/s/1CcqrsALafsSf4OCGC2FlXA?pwd=rty6",
+        "size": "198 MB",
+        "version": null
+      },
+      {
+        "name": "官方发布页 · 作者 VBcom 官网，可查最新版号与校验值（还有在线修复版等）",
+        "url": "https://www.zysoftware.top/post/10.html",
+        "size": "官网页面",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "vcredist",
+    "name": "Visual C++ 运行库合集（AIO Repack）",
+    "category": "系统工具",
+    "description": "装软件或玩游戏时常见的「缺少 msvcp140.dll」「找不到 VCRUNTIME140.dll」，基本都是系统里的 Visual C++ 运行库没装全。这个合集（AIO Repack）把 VC++ 2005 / 2008 / 2010 / 2012 / 2013 / 2022 / 2026 的 x86、x64 版本打包在一起，一次装完；安装前会自动清理已有的旧版运行库，避免版本打架。\n注意：这是第三方重打包版，不是微软官方安装包；Win7 / 8.1 上装的是 2022 版运行库，只有 Win10 / 11 才支持 2026 版。",
+    "version": "v0.106.0",
+    "size": "约 30 MB（x64 安装版）",
+    "requirements": "Windows 7 / 8 / 8.1 / 10 / 11（x86 / x64 / ARM64）",
+    "iconUrl": "https://tse3-mm.cn.bing.net/th/id/OIP-C.Vo1hbTqt06UElgWs9GO2pwAAAA?w=100&h=100&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows ARM64 安装版",
+        "url": "https://github.com/abbodi1406/vcredist/releases/download/v0.106.0/VisualCppRedist_AIO-arm64.exe",
+        "size": "19.3 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x86 安装版",
+        "url": "https://github.com/abbodi1406/vcredist/releases/download/v0.106.0/VisualCppRedist_AIO_x86only.exe",
+        "size": "18 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 安装版",
+        "url": "https://github.com/abbodi1406/vcredist/releases/download/v0.106.0/VisualCppRedist_AIO_x86_x64.exe",
+        "size": "31.1 MB",
+        "version": null
+      },
+      {
+        "name": "其他 x64 压缩包",
+        "url": "https://github.com/abbodi1406/vcredist/releases/download/v0.106.0/VisualCppRedist_AIO_x86_x64_106.zip",
+        "size": "31.1 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "vcredist-aio",
+    "name": "微软常用运行库合集",
+    "category": "系统工具",
+    "description": "遇到「计算机中丢失 msvcp140.dll」「应用程序无法正常启动 0xc000007b」这类报错，绝大多数是系统缺少 Visual C++ 运行库造成的。本合集（VisualCppRedist AIO，由 abbodi1406 在 GitHub 开源维护）收录了 2005 至 2022 全系列 Microsoft Visual C++ Redistributable，一键自动检测安装/修复，是装机与补全 DLL 最省心的方案。运行后按提示安装即可，无需勾选版本。",
+    "version": "0.106.0",
+    "size": "17 MB ~ 31 MB",
+    "requirements": "Windows Vista ~ 11（x86 / x64 / ARM64）",
+    "iconUrl": "https://tse3-mm.cn.bing.net/th/id/OIP-C.Vo1hbTqt06UElgWs9GO2pwAAAA?w=100&h=100&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "x86 + x64 合集 · 推荐；32/64 位系统通用，一次装全",
+        "url": "https://github.com/abbodi1406/vcredist/releases/download/v0.106.0/VisualCppRedist_AIO_x86_x64.exe",
+        "size": "31 MB",
+        "version": null
+      },
+      {
+        "name": "仅 32 位（x86） · 老机器 / 只要 32 位运行库时用",
+        "url": "https://github.com/abbodi1406/vcredist/releases/download/v0.106.0/VisualCppRedist_AIO_x86only.exe",
+        "size": "18 MB",
+        "version": null
+      },
+      {
+        "name": "ARM64 · ARM 设备（骁龙本等）选这个",
+        "url": "https://github.com/abbodi1406/vcredist/releases/download/v0.106.0/VisualCppRedist_AIO-arm64.exe",
+        "size": "19 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "microsoft-net-packages-aio-v13-05-25",
+    "name": "Microsoft.Net.Packages.AIO.v13.05.25",
+    "category": "系统工具",
+    "description": "Microsoft.Net.Packages.AIO.v13.05.25.RePack.by.xetrin镜像",
+    "version": "v13.05.25",
+    "size": "2.23GB",
+    "requirements": "windows7-11",
+    "iconUrl": "https://avatars.githubusercontent.com/u/226628629?v=4",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "第1个压缩包 · 把以下所有压缩包全部下载一个目录，对.001压缩包解压即可",
+        "url": "https://github.com/vgfbfbgbgf/Microsoft.Net.Packages.AIO.v13.05.25/releases/download/MicrosofL.Net.Packages.AJO.v13.05.25/Microsoft.Net.Packages.AIO.v13.05.25.RePack.by.xetrin.7z.001",
+        "size": "1000 MB",
+        "version": null
+      },
+      {
+        "name": "第2个 · Microsoft.Net.Packages.AIO.v13.05.25.RePack.by.xetrin.7z.002",
+        "url": "https://github.com/vgfbfbgbgf/Microsoft.Net.Packages.AIO.v13.05.25/releases/download/MicrosofL.Net.Packages.AJO.v13.05.25/Microsoft.Net.Packages.AIO.v13.05.25.RePack.by.xetrin.7z.002",
+        "size": "1000 MB",
+        "version": null
+      },
+      {
+        "name": "第3个 · Microsoft.Net.Packages.AIO.v13.05.25.RePack.by.xetrin.7z.003",
+        "url": "https://github.com/vgfbfbgbgf/Microsoft.Net.Packages.AIO.v13.05.25/releases/download/MicrosofL.Net.Packages.AJO.v13.05.25/Microsoft.Net.Packages.AIO.v13.05.25.RePack.by.xetrin.7z.003",
+        "size": "291 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "snipaste",
+    "name": "Snipaste",
+    "category": "其他工具",
+    "description": "一款轻量级截图与屏幕贴图工具，由国内独立开发者打造。最大特色是「贴图」——截完的图可以直接钉在屏幕最上层当参考，同时支持像素级精准截图、屏幕取色和丰富的标注工具（矩形、箭头、文字、马赛克等），备课、做课件时贴素材特别顺手。",
+    "version": "2.11.3",
+    "size": "41.3 MB",
+    "requirements": "Windows 7 ~ 11、Linux、macOS",
+    "iconUrl": "https://store-images.s-microsoft.com/image/apps.25543.14503356220976813.6529113a-95e4-4700-808f-6c91cac3e590.fa86b8ea-8644-48ca-9ae9-b35b06e3a5af?h=170",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "通过 Microsoft Store 下载",
+        "url": "https://apps.microsoft.com/detail/9p1wxpkb68kx?hl=zh-CN&gl=CN",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "Windows x86 · 适用于 32 位系统",
+        "url": "https://download.snipaste.com/archives/Snipaste-2.11.3-x86.zip",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "Windows ARM",
+        "url": "https://download.snipaste.com/archives/Snipaste-2.11.3-arm64.zip",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "Linux",
+        "url": "https://download.snipaste.com/archives/Snipaste-2.11.3-x86_64.AppImage",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "macOS",
+        "url": "https://download.snipaste.com/archives/Snipaste-2.11.3.dmg",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "everything",
+    "name": "Everything",
+    "category": "系统工具",
+    "description": "Everything 能在数秒内索引并搜索整块硬盘上的数百万个文件，占用资源极低、搜索速度极快，是电教委员翻找课件、安装包、素材的必备神器。永久免费，请认准官网下载。",
+    "version": "1.4.1.1032",
+    "size": "1.3 MB+",
+    "requirements": "Windows 7 ~ 11",
+    "iconUrl": "https://www.voidtools.com/favicon.ico",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 64位 安装版 · 推荐安装版，会自动添加右键菜单",
+        "url": "https://www.voidtools.com/Everything-1.4.1.1032.x64.msi",
+        "size": "1.5 MB",
+        "version": null
+      },
+      {
+        "name": "Windows 64位 便携版 · 便携版，解压即用，不写入注册表",
+        "url": "https://www.voidtools.com/Everything-1.4.1.1032.x64.zip",
+        "size": "1.3 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "spacesniffer",
+    "name": "SpaceSniffer",
+    "category": "系统工具",
+    "description": "SpaceSniffer 用「方块图」（Treemap）展示磁盘占用：方块越大，对应的文件或文件夹就越大，一眼就能看出到底是哪个文件夹把 C 盘塞满了。单击可以展开看细节、双击放大，支持按文件名、大小、日期过滤（例如输入 *.jpg 只看图片、>2years 只看两年前的老文件），还能给文件打颜色标签、导出报告。绿色便携版，解压双击即用，不写注册表。",
+    "version": "2.2.0.27",
+    "size": "约 2.9 MB",
+    "requirements": "Windows 7 / 8 / 10 / 11（x64，便携版）",
+    "iconUrl": "https://tse1-mm.cn.bing.net/th/id/OIP-C.JmbGPptZDUtTRksUs9N_bgAAAA?w=162&h=180&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 便携版（压缩包） · spacesniffer_2_2_0_27_x64.zip",
+        "url": "https://www.uderzo.it/main_products/space_sniffer/files/spacesniffer_2_2_0_27_x64.zip",
+        "size": "2.9 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "huorong-security",
+    "name": "火绒安全软件",
+    "category": "系统工具",
+    "description": "火绒安全软件把反病毒、主动防御和防火墙三大模块整合在一起，占用资源极低、没有广告弹窗，还能有效拦截流氓软件和各种弹窗推广。给教室大屏装一个，既安静又省心。",
+    "version": "6.0.13.0",
+    "size": "约 68 MB",
+    "requirements": "Windows 7+",
+    "iconUrl": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBcroYGWjOABlhKf2AVUi0WZ9KDmMjsPpPVSOyV6XCwMSy3166ItTkU_VT5s2cwTPeEHuCqaPdlw9P7j94tTzKto-&format=source&h=134",
+    "tags": [],
+    "platforms": [],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 安装版（官方直链） · 官网下载入口的固定地址，会自动 301 到当前最新版；64 位系统选这条",
+        "url": "https://www.huorong.cn/product/downloadHr60.php?pro=hr60&plat=x64UrlAll",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "360-safe-guard-speed",
+    "name": "360安全卫士极速版",
+    "category": "系统工具",
+    "description": "360 安全卫士极速版主打「永久免费、无弹窗广告」，聚焦简单操作与纯净视觉体验，是 360 安全卫士的一次革新。保留了系统修复、垃圾清理、软件管家等核心功能，去掉了烦人的广告弹窗，教室里用着清爽不少。",
+    "version": "15.0.3.1058",
+    "size": "约 93 MB",
+    "requirements": "Windows 7 ~ 11",
+    "iconUrl": "https://p5.ssl.qhimg.com/dm/72_72_100/t018465913d6e100407.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装版 · 官方「始终最新」安装包，点了在本页直接开始下载",
+        "url": "https://dl.360scdn.com/setupbeta_jisu.exe",
+        "size": "约 93 MB",
+        "version": null
+      },
+      {
+        "name": "官网下载页",
+        "url": "https://weishi.360.cn/jisu/",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "360-jijiuxiang",
+    "name": "360系统急救箱",
+    "category": "系统工具",
+    "description": "360 系统急救箱是强力查杀木马病毒的系统救援工具，对犇牛、机器狗、灰鸽子、扫荡波、磁碟机等各类顽固木马查杀效果突出。当电脑感染顽固病毒、杀毒软件被干掉或无法运行时，用它深度扫描清除往往能把系统救回来。",
+    "version": "5.1.64.1289",
+    "size": "57 MB",
+    "requirements": "Windows XP+",
+    "iconUrl": "https://p1.ssl.qhimg.com//d/_open360/logo72nb/221_72.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装版",
+        "url": "https://dl.360safe.com/360c0mpkill_5.1.64.1289-0701.zip",
+        "size": "53 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "geek-uninstaller",
+    "name": "Geek Uninstaller",
+    "category": "系统工具",
+    "description": "Geek Uninstaller 是一款口碑极佳的 Windows 卸载工具，单文件绿色版、免安装。卸载时先调用软件自带的卸载程序，完了自动扫描并清除残留的文件、文件夹和注册表项；遇到装不干净、卸不掉的顽固软件还能强制删除，是给教室电脑「大扫除」的利器。",
+    "version": "1.6.0.200",
+    "size": "3.04 MB",
+    "requirements": "Windows 7 ~ 11",
+    "iconUrl": "https://ts4.tc.mm.bing.net/th/id/ODF.ytgfeSURamIxStoRL-3p_w?w=32&h=32&qlt=90&pcl=fffffa&r=0&o=6&pid=1.2",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 单文件版 · 官方直链，有时候不稳定",
+        "url": "https://geekuninstaller.com/geek.zip",
+        "size": "3.04 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "hibit-uninstaller",
+    "name": "HiBit Uninstaller",
+    "category": "系统工具",
+    "description": "HiBit Uninstaller 是一款轻量、免费、无广告的 Windows 第三方卸载工具。相比系统自带的「应用和功能」，它支持强制卸载、卸载后扫描残留、批量卸载，还能管理浏览器扩展与右键菜单、查看和清理开机启动项，适合彻底清掉顽固软件、捆绑安装的流氓程序和装坏了的应用。\n和 Geek Uninstaller 相比，它的批量卸载也完全免费。",
+    "version": "4.0.10",
+    "size": "4.32 MB",
+    "requirements": "Windows Vista / 7 / 8 / 10 / 11（32 / 64 位）",
+    "iconUrl": "https://www.hibitsoft.ir/images/Uninstaller-icon.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装版（始终最新） · 官方固定文件名地址，每次都指向最新版",
+        "url": "https://www.hibitsoft.ir/HiBitUninstaller/HiBitUninstaller-setup.exe",
+        "size": "4.32 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "memreduct",
+    "name": "MemReduct",
+    "category": "系统工具",
+    "description": "MemReduct 是一款体积极小、开源免费的内存清理工具，直接调用 Windows 原生内存管理接口，可一键释放工作集、系统缓存、待机内存等。启动快、占用低、常驻后台几乎无感，适合内存吃紧的教室电脑和老旧机器日常清一清。",
+    "version": "3.5.2",
+    "size": "373 KB",
+    "requirements": "Windows 7 ~ 11（32/64 位）",
+    "iconUrl": "https://img.32r.com/logo/201116/202011161631543933.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 安装版 · 官方安装包，Github链接有时链接不稳定",
+        "url": "https://github.com/henrypp/memreduct/releases/download/v.3.5.2/memreduct-3.5.2-setup.exe",
+        "size": "373 KB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "winmemorycleaner",
+    "name": "Windows Memory Cleaner",
+    "category": "系统工具",
+    "description": "Windows Memory Cleaner 是一款开源免费的内存清理工具，基于 Windows 原生 API 实现，可清理待机内存（Standby List）、工作集、系统缓存、已修改页面列表等，支持设置自动清理阈值、开机自启与全局快捷键。单个 exe、体积极小、无广告、不常驻后台服务，适合教室 / 办公电脑日常释放内存。",
+    "version": "3.0.8",
+    "size": "0.5 MB",
+    "requirements": "Windows 7 ~ 11（32 / 64 位）",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/IgorMundstein/WinMemoryCleaner@main/docs/assets/images/win-memory-cleaner.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "单文件 exe · 推荐；下载后直接运行（建议右键管理员运行）",
+        "url": "https://github.com/IgorMundstein/WinMemoryCleaner/releases/download/3.0.8/WinMemoryCleaner.exe",
+        "size": "0.46 MB",
+        "version": null
+      },
+      {
+        "name": "压缩包 · 含 exe + 校验文件",
+        "url": "https://github.com/IgorMundstein/WinMemoryCleaner/releases/download/3.0.8/WinMemoryCleaner.zip",
+        "size": "0.22 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "rammap",
+    "name": "RAMMap 内存分析",
+    "category": "系统工具",
+    "description": "RAMMap 是 Microsoft Sysinternals 出品的系统内存分析工具，能详细展示物理内存的使用构成：各进程占用、文件缓存（Standby / Modified）、驱动锁定内存、分页与非分页池等，并支持手动清空待机列表、系统工作集、已修改页面列表等。适合排查「内存被吃满」「磁盘缓存过大」「关机/休眠异常」等问题。官方出品，免安装，解压即用。",
+    "version": "1.63",
+    "size": "0.7 MB",
+    "requirements": "Windows Vista ~ 11（32 / 64 位）",
+    "iconUrl": "https://soft-img.30405.com/2025/0924/09241648159407.jpg?resize=p_5,w_128",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "官方单文件包 · 微软官方直链；解压后运行 RAMMap.exe（右键管理员运行）",
+        "url": "https://download.sysinternals.com/files/RAMMap.zip",
+        "size": "1 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "light-c",
+    "name": "light-c",
+    "category": "系统工具",
+    "description": "该软件主要可以清理磁盘、旧驱动，系统瘦身（通过关闭休眠等实现），同时还可以清理失效的右键菜单项和此电脑中的第三方外壳图标。而且安全系数较高，清理时不易造成损坏。有安装版、便携版、离线安装版等。",
+    "version": "v2.17.0",
+    "size": "20~25MB",
+    "requirements": "Windows",
+    "iconUrl": "https://ts2.tc.mm.bing.net/th/id/OIP-C.ihUbMxbgSQCZtzSmxjk53wAAAA?w=108&h=108&c=1&bgcl=78e5cc&r=0&o=7&dpr=2&pid=ImgRC&rm=3",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 安装版 · LightC_2.16.11_x64-setup.exe",
+        "url": "https://github.com/Chunyu33/light-c/releases/download/v2.17.0/LightC_2.17.0_x64-setup.exe",
+        "size": "5.8 MB",
+        "version": null
+      },
+      {
+        "name": "其他 x64 便携版 · LightC_portable_x64_v2.16.11.zip",
+        "url": "https://github.com/Chunyu33/light-c/releases/download/v2.17.0/LightC_portable_x64_v2.17.0.zip",
+        "size": "7.7 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 离线安装版 · LightC_webview2_offline_x64_v2.16.11.exe（可在离线时安装）",
+        "url": "https://github.com/Chunyu33/light-c/releases/download/v2.17.0/LightC_webview2_offline_x64_v2.17.0.exe",
+        "size": "213 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "wisediskceaner-woij",
+    "name": "Wise Disk Cleaner",
+    "category": "系统工具",
+    "description": "一个可以整理磁盘及清理的轻量化工具",
+    "version": "11.4.0",
+    "size": "11.8MB",
+    "requirements": "Windows XP ~ 11（32 / 64 位）",
+    "iconUrl": "data:image/webp;base64,UklGRrANAABXRUJQVlA4IKQNAACwVQCdASrYANgAPp1InUslpCKhpREMgLATiWUYnyfno14KtW+fvCbARfx9J/506Kr11c7pp3La6m4O4nEZQ/nAWC3hd/La7bIR6y3g9/cN9CbQcrTboBxdttOUmAgFOVez/qExEsluC7PKugKvIS1pcsDZFx9j9IFAXzxSXdmPNuARL68uTS4dnW4tZsRfD36spSeBovPC6/zbaQIZUAviGZ5XaNxB5j0AX5XT1riUetxGWBYe3saZIsGrdIaiaFAchVI1lXtV95WycOG8RPtAZFqCKtc6e6P6akbd/aT9Z3ONGVDQGFHX7d4dPBnZcXWdVbJmNkj5yGPblCkYPtZv6j3rMWLya3f2HW9r/LdZv/d0xfhgl/cGxTHhH0ZN/grwoJ7SjbwygIFVUVeOyGvg6wyXquOdw77mW+Rr2VuQ7xO/Lnb05EIeZFwWBhjBV0pzJQcVuuLL3utl5Umn3SLcytzBLrbhVxbdcS34Din4mW28JyljSPUjguXOatfxmO0UhiWfqekHKzBjDCeoffLoYTgFDSNAG0k8yIfBd2qo55luPCs7CYlE/FjLA0vQ+wXrP7kZJlqaG8NFH8ojAok6q9JxagtyDrXExvZx7AxQoDT9dM8PFZuMQncouUbIp4cSz6/rn1zLkyaNYCD3P9Mbj7sHe7vZq92BU9zjLXx3XQ7Dm/W5Ukl/F4WWoeI1E2NoxVYIZ0RviOSqZR9nJvgc5tZmf+eGycr5K/96njaxfQxkaBO2CVfxalmoY/a8dQGH8qHg8xZPbiq8tJ780iUNFPHeLLGOJ5muh73+zOpCesPYVY9LURnCTxI/93vSdKz2BltytkedxbJoRYwtTew5yN3CRNVnNLFbrJwbg1Pv1jNKjpvtfUDaHAg/P6HxKCIPhT/QEs7UKMyX1VueIkRNfaOEt0SAAP76toCInmll5sLSpoHxhTBcHpRxezwNGkFb0+Zmyo8PYxcNOLoByJwkWF8OP7QgvTxv3mGwa/hOyrbfwhythEXPIvIBUbcqlEFMp0ybSC/I3AUbENMzh649IDFHMJIKOhnieb6SP81T59mrmTMI1U6eG+pOxzG1tgVT9X/bjSCIrfGec4HE884hrGH3Et4pVt7I14kPXeQUmV037YipuEU2rm9mlG8/F2d3O1FNHzJVhGohFWWK2xQ/OYwgD4gN+qKJo/VnSCudjTJECKFEYk/2d/y6h6KtDLEy4vnA6+tyvIxBjJoAdAFNnO0qm/g5WiTs66lC7rDcu7iY/qcoCo6PGR6wQVPdiE2Fl4ZhXkzpK/grwrCzDk22XTBk5B92qtV3uzR70G5j+gidrIoLKA3kKm6iyb2HqdhpRwpuuWkYBxm2S8Ge7zoIpwyRI696o/R9MrayL7THNycCFMsDk8UyamBXRaVQaDSXAHDK1Bj+asjoaZazxkAvp8XY/BoDf1TuSvCB6qbsoUrdUyzPhOG4ZVriLNHVt2neyQ4vSVd6aGc0pE/h0pI1BFzvXh3rG0sVH7H+OZrNW69KYYgSnadCEd75cWSFP1+/dhGOK3XC2dBD/9kYCh9jwMfpjslulWGuAyAR0WRsiew80JH5OQLtk7ZZ8EhY2lHa5YpHBo5Uc5I2blA90ENI5N0j4PgAxGBGSnj0t53RmYVQfLGV9yq6tX7hZiJwYjflVtCvSZqAh0rNLnMtCac7DTBtyE1bGw4+G+GPvoSzNSWgz2aovEOqXbpYaqDJlZvu+Sebbu8EXeAdqubf8LZbv/n0kYlt41zJUanm8wbbNBS+7yC1MxX6EVRyxZ9ZjIrYcu71ygk0I9Tinj6Fta3M7GfWFHGCrC1Oq+HuSvZe/hP40u7m69P7gMpZVxJ74RrAHHQqAX5gNoa5hqGC3Sz6rwNnKHaNn9/H5YzrPUIk7Gu7cqwaZy5O5ztL6VTl4DziP22jSMuleFPY7DKVSpV+7h575y6m5Vrj0vvNwa6+H+xgBKoYlZj6z56ZGB9zYFmj3yBwDeBi32zEHiM8lf9XIq55Udc4OBbPQsvZmVMoMho/KQILFqwUopguH0Mrcpp1DxyahgDzkkyTGpaKy2lFTtInVdRkFvd7ZBnUDPT35qlmZI/W579hiHS9AvJFILODxyVLM/3nb07ieNRqPnlEcm1SsRj724daZhCXZtnHUkCLv14fC864XD6NP3MSCICXFQ6ugAbW+S0E6XnzX/JfFQPKqMLdfhtveW/UsK7LWU2ZHDOk07b3/7bqY+R4cT8WF9scxGFbYlJZnksyxnHgTMnuF9mVYecvL+ik/5cbkKOkGR7hTbS5Lc3ruUQ5lIgie2rR0zhT/yA3zpveLx+ftkKU8qzZnNUUvgxdJFEb7mNdVTX9vIxPygNv/goYDMqv4CfD6LSlazySyYOrv3CPpNwbu2B4tvMcukXa9MNfCl7HPYkWcqY/QWpUit5rgj/uvIUoxdjPcrDAycuthi53B7cGICDNsBNUUgaWAVPLHC1YaIQx/vphiMDHfKGM1pO8IfgscflaysPA0g/rbdJH8EBPTMbgB2oThDHggV8DeMGywz5dOuIk0vzNUzj4OyCi5wtr5+QpsZIrvCNDNNxSQgRzz8FIvQnqIpDZJLJDEmO4yTR15wcASy6xNCd8kHeBwXkwo1P0t6uKVZoRDFRETNQ/OP1skte6Sv3X4B6HM1y2gAXlxJAYIu54JN4VAxVXknVi6w86OiqJmJUyRP0WeyfnK9Zu9E4W9lXURkq+VAj+BFrs9qWfP2X03Iljtl4qA5dfoq2+ID8UAqVs1+6dgzxgM8YnyaIyvwioUiOKvmfkNNxTOfKjWxdNS79DTx0vRMZE7oulU9VjEWEshp/YnsCf4p0ZzD9ytmD0GXe1wNLnGgd5Moi4mfr+t68gYE5MRwM6Ct8LJ5yB0uAXo8+p7M9zfLVEunSDdr/cNfFdHUcPYCnWku8+tEgWQMuxxie30yo0bO3kHtT8hNkpCBaSmf92nEcYLrw3vCmtVQXvio3r8d2Qm4ICZlA931baG3cjcDOwmdfvNjUq0iWZXk4tBnwBbPcdB1i4ZUMzf+IkNyiAQ60fBoLw4oVQOM7Tap8aa6zDgOJbH/ELsadXpOHv0tLO01mGX9JpEXTU07+qOH1k1qaHuQFjQ2d7mRPEhgmi7IZ3LAhNqyIMH04Lc88M6dL/rkRLAj0+sLZ6BIdub7tyd5b++qBt+pRQGZOjNyycX6v6DJ1cIt2KreJaf2KkIz/P3ipJoVEc3gD011A+vE/cL6mtYzgDX4dalNIQkoTgf1Cr4Hnb+zAose8RKsgTHjnnYOaxrO6I26tcAZEbO0P7gYZQPBUuDXi7vPaZ4Yt8qVIWckreC/jYWE75tl531aVmvXeAjsuMxYTD8P3WXmByOkF7yy7VNrW82K706/KjsJS4STr67LuYkhfEto6LwZmelv04kARFa8w/GqI48hy0c9n3Ir8sehTbVSPeLaq06jD19UW8hHdN30J4bQ21oqa1INEvbc3p1vgZr5uSXccW60CgbmdamVC8u3wac3bZ072EsSV/qz3JFqHWAGtvQwFwjVddQUIeWU2IBPqRalGT44Ta8fGF8RTHGoElKHsPb/attxMlEDdl/BSIuV3iR6rTsI/yn5kmtzTm0uJM40GlYNcdIpSdJ9hhUunrxgstELIGxj24WlPxedOFokvfGUxQT/MXCtzcUyJmo6/Fk0SwEThfBk87+hpjegMC4mYDh1h9yyfkCWfTeQqRtWiWo6ex6uvmvHvF2ml+u1ieHK3bcKorB0DlYE13wLZB4ex7bk6kiUjzhws/NMPcUc7nC+K17QGrSLKExHfPepjOApNAjq6y+DsyGQe23s5irHqWV6yExk/a9Y7i7ZIqCjuMr3ngjzMatPRwtZlSNr8PmEiKZf6mh5n57eSfEC8zbvJ7a1mfLQDmHfkLnworybo284vfpHyWBowFpUwMItIkcgfAMZp+8t6tDKO9q/Iqu/uLOuooJkWO8ZFymthBe+8mKBDeFpXQyG52IbBh+n6BnaAeWSh5BcmphwTqUOxciAjXP1RwJr07Gj+ZmQPptkHE5ih0LaslsIxuYfm4ThwUsuEP2JAw5naaTdmMZ10v5dwTQldUtldHwtx5ts1e4VzSOIllapUxNjiRDbB4oq54stgGP7EiyBOSzB+zFTlKr1gmfKlp936wJQ/t37FTlBk+Fhph1Td+U+ppUBPYr3ATCTCUt9hNoq6Tw6hNtFL4V+cVB0XhBpOHe3cd6ptgDgm6xW3opwSR3tD5XZpPpdgykor7hl5uelvHE0NQgHD1sBaS5N/lmyZucwhkn4+kTjwXhx8MB9b9AQ2HHj/cDWpTt9xb1ug0E8vlBhKwdMu2BN7PrGmLhVSnzoaXksb8l6UVnAW70lapL1JeCi1+LaaTZ9vW8SR+zpZ1hlaF4LUWwcdeBAGbvrN1VIEvGmz8M0vvcwznIOsfWyNYf6QqnF51H96GMzPqBvVzPJbSCr1kGqAAkIOdvwcN1F+kKRFWc+k3VSsgwL3RAMCSKOws9f38L/O/1wdF8y6o81790VjEUmAmwuVGXS2juR4FAy4MMYxYoq6o+rDdTXHKpE8AOo6Qwktw52xiTZWJ6yr8VKRKDHjql6Ne/tKDl5CmmebLwfEX37QZTnItpj0SlAAAf0SuDnAAAAA=",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "x86",
+        "url": "https://www.wisecleaner.com/wise-disk-cleaner.html",
+        "size": "11.8MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "driver-ceo",
+    "name": "驱动总裁",
+    "category": "系统工具",
+    "description": "驱动总裁由系统总裁开发，集在线与离线双模式的硬件驱动安装工具，支持台式机、笔记本以及 Mac 的 Boot Camp 自动匹配驱动，能轻松解决装完系统后没网卡驱动、没显卡驱动等问题。「万能网卡版」自带离线驱动包，装系统后没网也能先把网卡驱动打上，再联网装其余驱动，是重装系统后的救场工具。",
+    "version": "2.20.0.8",
+    "size": "26.5 MB（在线版）/ 663 MB（万能网卡版）",
+    "requirements": "Windows XP ~ 11（也可在 PE 下运行）",
+    "iconUrl": "https://tse4-mm.cn.bing.net/th/id/OIP-C.QPYPX3j55HcEJYBA3PDzLQAAAA?w=120&h=120&c=7&r=0&o=7&pid=1.7&rm=3",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "在线版（26.5 MB） · 官方直链；安装时联网自动匹配最新驱动",
+        "url": "https://dl.360simg.com/software_installer_download/DrvCeooLinstaller_1029_53d5d.exe",
+        "size": "26.5 MB",
+        "version": null
+      },
+      {
+        "name": "万能网卡版（离线包） · 663 MB；没网时也能装网卡驱动，点开是官网下载页",
+        "url": "https://www.sysceo.com/software-softwarei-id-245.html",
+        "size": "官网页面",
+        "version": null
+      },
+      {
+        "name": "官网下载页 · 还有网卡绿色版、离线精简版等",
+        "url": "https://www.sysceo.com/dc",
+        "size": "网页",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "diskgenius",
+    "name": "DiskGenius",
+    "category": "系统工具",
+    "description": "DiskGenius 是一款功能强大的磁盘分区管理工具，支持分区管理、数据恢复、坏道检测、系统迁移等功能。免费版已足够日常维护使用，解压即用，是电教委员维护班级电脑硬盘的必备工具。",
+    "version": "6.2.0",
+    "size": "37.1 MB+",
+    "requirements": "Windows 2000+",
+    "iconUrl": "https://ts1.tc.mm.bing.net/th/id/OIP-C.2vFw6BHgZ39fhVnJpH0TKQAAAA?w=108&h=108&c=1&bgcl=5523ff&r=0&o=7&dpr=2&pid=ImgRC&rm=3",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 绿色版（官方直链） · 磁盘管理软件涉及数据安全，官方建议始终使用最新版本；新版发布后这条地址由体检自动换成新的。不要将软件下载安装到要恢复数据的分区！解压即用，无需安装。",
+        "url": "https://download_cn.eassos.com/DG6201829_x64.zip",
+        "size": "41 MB",
+        "version": null
+      },
+      {
+        "name": "官网下载页 · 官网默认跳蓝奏云网盘，也有 32 位 / XP 版；地址不带版本号、始终最新",
+        "url": "https://www.diskgenius.cn/download.php",
+        "size": "网页",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "dism-gui",
+    "name": "Dism 图形界面",
+    "category": "系统工具",
+    "description": "把 DISM 等系统命令图形化的小工具（UWP 版本），不用记命令就能修复系统映像、清理组件、管理 Windows 系统，装在教室电脑上应急修系统很方便。",
+    "version": "跟随商店更新",
+    "size": "17.3 MB",
+    "requirements": "Windows 10+",
+    "iconUrl": "https://store-images.s-microsoft.com/image/apps.7808.14081807280554970.bc9e26e4-5168-4fc1-a644-1f4c12670ef8.351176fa-352c-4b2d-9557-2548b252bedf?h=134",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "通过 Microsoft Store 下载",
+        "url": "https://apps.microsoft.com/detail/9p90zdp3f501?hl=zh-CN&gl=CN",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "tubatoolbox",
+    "name": "图吧工具箱（WinUI3 版）",
+    "category": "系统工具",
+    "description": "图吧工具箱 CE 是经典装机工具「图吧工具箱」的 WinUI3 现代化重制版，开源免费、界面清爽。内置 CPU-Z、GPU-Z、AIDA64、CrystalDiskInfo、CrystalDiskMark、MemTest、HWiNFO 等数十款常用硬件检测与系统维护工具，还可直接从社区工具库下载更多插件，适合装机验机、排查硬件故障。安装版自带完整工具集，便携版解压即用。",
+    "version": "1.8.0",
+    "size": "226 MB ~ 418 MB",
+    "requirements": "Windows 10/11（x64 / ARM64）",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/luolangaga/tubatools@master/StoreAssets/AppTileIcon_300x300.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "安装版（x64） · 推荐；自带完整工具集，安装即用",
+        "url": "https://github.com/luolangaga/tubatools/releases/download/v1.8.0/TubaWinUi3_Setup_1.8.0_x64.exe",
+        "size": "303 MB",
+        "version": null
+      },
+      {
+        "name": "便携版（x64） · 免安装，解压即用",
+        "url": "https://github.com/luolangaga/tubatools/releases/download/v1.8.0/TubaWinUi3_Portable_1.8.0_x64.zip",
+        "size": "407 MB",
+        "version": null
+      },
+      {
+        "name": "精简版（x64） · 内置工具较少，体积更小",
+        "url": "https://github.com/luolangaga/tubatools/releases/download/v1.8.0/TubaWinUi3_Lite_1.8.0_x64.zip",
+        "size": "196 MB",
+        "version": null
+      },
+      {
+        "name": "安装版（ARM64） · ARM 设备（骁龙本等）选这个",
+        "url": "https://github.com/luolangaga/tubatools/releases/download/v1.8.0/TubaWinUi3_Setup_1.8.0_arm64.exe",
+        "size": "299 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "todesk",
+    "name": "ToDesk 远程控制",
+    "category": "网络工具",
+    "description": "ToDesk 是国内常用的远程控制软件，个人版免费，连接稳定、延迟低，支持文件传输、远程打印、手机远控电脑等。电教委员可以装一个：坐在自己位置上就能远程帮老师关投影、装软件、排查教室电脑问题，不用来回跑教室。",
+    "version": "5.x（以安装时官网版本为准）",
+    "size": "约 30 MB",
+    "requirements": "Windows / macOS / Linux / Android / iOS",
+    "iconUrl": "https://tse2-mm.cn.bing.net/th/id/OIP-C.4mfqF40daBM46zyM6mMOAQAAAA?w=135&h=150&c=7&r=0&o=7&pid=1.7&rm=3",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux",
+      "android",
+      "ios"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 在线安装器 · 推荐；官方直链，始终指向最新版",
+        "url": "https://dl.todesk.com/official/ToDesk_Installer.exe",
+        "size": "约 30 MB",
+        "version": null
+      },
+      {
+        "name": "官网下载页 · 需要离线安装包或其它系统版本时来这里",
+        "url": "https://www.todesk.com/download.html",
+        "size": "网页",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "xrkayxingz",
+    "name": "向日葵远程",
+    "category": "网络工具",
+    "description": "向日葵是国内主流的远程控制软件之一，与 ToDesk、UU 远程属于同一类。基础功能免费，在教室电脑上装好被控端后，就能从校外远程连上去，帮老师处理软件装不上、系统报错、课件打不开这类问题，不用每次都跑一趟；也支持用手机、平板远程查看和操作。被控端与控制端覆盖 Windows、macOS、Linux、Android、iOS，教室电脑一般装 Windows 被控端即可。",
+    "version": "16.6.0.32198",
+    "size": "视版本而定",
+    "requirements": "Windows / macOS / Linux / Android / iOS",
+    "iconUrl": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBUPoAV7IWf4N9aBTOry356naPW9kMnSngru7N0KsczsCmGqbHLhab6n1ar4nAq0b6OJNxnOhgfu1lf9qrvQCjsU-&format=source&h=134",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux",
+      "android",
+      "ios"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "官方安装网站",
+        "url": "https://sunlogin.oray.com/download",
+        "size": "视版本而定",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "uu-remote",
+    "name": "UU 远程（网易）",
+    "category": "网络工具",
+    "description": "UU 远程是网易出品的免费远程控制软件，自研传输协议，主打低延迟高画质（支持 4K / 144 帧），可远程控制电脑、手机远控电脑、手机远控手机，也支持机身文件互传与手柄直连。和 ToDesk 类似，适合电教远程协助维护教室电脑。目前个人使用免费。",
+    "version": "4.45.0.4318",
+    "size": "约 40 MB",
+    "requirements": "Windows / macOS / Android / iOS",
+    "iconUrl": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBXLW6UXVgyMcBgDjRrbSmRx2YaFESoVn9cNxtclJttNF.5qlZCqvoOZ7fvZu9MWBCFvjbxgtBX0rAW22W5XVjlI-&format=source",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "android",
+      "ios"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装包 · 推荐；网易官方下载接口，点了直接下最新版安装包",
+        "url": "https://api.nrd.nie.163.com/api/v1/release/dl/1?channel=gwqd",
+        "size": "约 40 MB",
+        "version": null
+      },
+      {
+        "name": "官网下载页 · 还有 macOS / 手机端下载",
+        "url": "https://uuyc.163.com/download/",
+        "size": "网页",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "powertoys",
+    "name": "PowerToys",
+    "category": "系统工具",
+    "description": "PowerToys 是微软官方出品的 Windows 效率工具合集，免费开源。常用功能：Always On Top 窗口置顶、Color Picker 屏幕取色、PowerRename 批量重命名、FancyZones 窗口布局、Text Extractor 屏幕取字（OCR）、Awake 防止息屏、快捷键指南等。对电教委员来说，讲课时圈重点、整理素材、批量改文件名都非常省事。",
+    "version": "0.102.3001",
+    "size": "约 280 MB",
+    "requirements": "Windows 10/11（x64 / ARM64）",
+    "iconUrl": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxl2iAbsXA6iMNHnNlwb_DNsB9YKeLef28ty81sj7Gxcj_6sw7XE3WlUczl2zl9e0cZxr7Ydi0GbeDUBiJ0XV_u8-&format=source",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 安装版（当前用户） · 单用户安装，不需要管理员权限，教室公共账号也能装",
+        "url": "https://github.com/microsoft/PowerToys/releases/download/v0.102.3001/PowerToysUserSetup-0.102.3001.0-x64.exe",
+        "size": "309 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 安装版（全机器） · per-machine 安装，需要管理员权限；新版发布后地址由体检流程自动更新",
+        "url": "https://github.com/microsoft/PowerToys/releases/download/v0.102.3001/PowerToysSetup-0.102.3001.0-x64.exe",
+        "size": "309 MB",
+        "version": null
+      },
+      {
+        "name": "微软官方介绍 / 下载 · 官方文档页，含各功能说明与下载入口",
+        "url": "https://learn.microsoft.com/zh-cn/windows/powertoys/install",
+        "size": "网页",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "umi-ocr",
+    "name": "Umi-OCR",
+    "category": "其他工具",
+    "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
+    "version": "v2.1.5",
+    "size": "未知",
+    "requirements": "Windows / Linux",
+    "iconUrl": "https://camo.githubusercontent.com/1d1968417347550c063e70118aa094507238a9a5670f13b1e62e6f21edc611d4/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f31302f32372f69636f6e2d2d2d3235362e706e67",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "linux"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Linux XZ · Umi-OCR_Linux_Paddle_2.1.5.tar.xz",
+        "url": "https://github.com/hiroi-sora/Umi-OCR/releases/download/v2.1.5/Umi-OCR_Linux_Paddle_2.1.5.tar.xz",
+        "size": "265 MB",
+        "version": null
+      },
+      {
+        "name": "Windows 安装版 · Umi-OCR_Paddle_v2.1.5.7z.exe",
+        "url": "https://github.com/hiroi-sora/Umi-OCR/releases/download/v2.1.5/Umi-OCR_Paddle_v2.1.5.7z.exe",
+        "size": "128 MB",
+        "version": null
+      },
+      {
+        "name": "Windows 安装版 · Umi-OCR_Rapid_v2.1.5.7z.exe",
+        "url": "https://github.com/hiroi-sora/Umi-OCR/releases/download/v2.1.5/Umi-OCR_Rapid_v2.1.5.7z.exe",
+        "size": "98.6 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "localsend",
+    "name": "localsend",
+    "category": "网络工具",
+    "description": "LocalSend 是一个跨平台应用程序，使用 REST API 和 HTTPS 加密实现设备之间的安全通信。与依赖外部服务器的其他消息应用程序不同，LocalSend 不需要互联网连接或第三方服务器，因此成为本地通信的快速可靠解决方案。",
+    "version": "v1.18.2",
+    "size": "未知",
+    "requirements": "Windows / macOS / Linux / Android",
+    "iconUrl": "https://localsend.org/img/logo.png",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux",
+      "android"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Android ARM64（APK） · LocalSend-1.18.2-android-arm64v8.apk",
+        "url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-android-arm64v8.apk",
+        "size": "44.4 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64（.deb） · LocalSend-1.18.2-linux-x86-64.deb",
+        "url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-linux-x86-64.deb",
+        "size": "23.5 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 安装版 · LocalSend-1.18.2-windows-x86-64.exe",
+        "url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-windows-x86-64.exe",
+        "size": "19.0 MB",
+        "version": null
+      },
+      {
+        "name": "macOS · LocalSend-1.18.2.dmg",
+        "url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2.dmg",
+        "size": "50.0 MB",
+        "version": null
+      },
+      {
+        "name": "windows-arm-64.zip · LocalSend-1.18.2-windows-arm-64.zip",
+        "url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-windows-arm-64.zip",
+        "size": "23.3 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "windhawk",
+    "name": "windhawk",
+    "category": "系统工具",
+    "description": "The customization marketplace for Windows programs: https://windhawk.net/",
+    "version": "v1.7.3",
+    "size": "未知",
+    "requirements": "Windows",
+    "iconUrl": "https://img.3dmgame.com/uploads/images/thumbnews/20231120/1700472738_266564.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装版 · windhawk_setup.exe",
+        "url": "https://github.com/ramensoftware/windhawk/releases/download/v1.7.3/windhawk_setup.exe",
+        "size": "11.0 MB",
+        "version": null
+      },
+      {
+        "name": "Windows 安装版 · windhawk_setup_offline.exe",
+        "url": "https://github.com/ramensoftware/windhawk/releases/download/v1.7.3/windhawk_setup_offline.exe",
+        "size": "142 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "系统工具",
+    "description": "伟大的python，无需多言",
+    "version": "未知",
+    "size": "未知",
+    "requirements": "Windows / macOS / Linux",
+    "iconUrl": "https://avatars.githubusercontent.com/u/1525981?v=4",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "无平台限制",
+        "url": "https://www.python.org/downloads/",
+        "size": "视版本变化",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "temurin17-binaries",
+    "name": "Eclipse Temurin 17（Java 运行环境）",
+    "category": "系统工具",
+    "description": "Eclipse Temurin（原 AdoptOpenJDK）是 Eclipse 基金会维护的免费 OpenJDK 构建，这里收录的是 Java 17（长期支持版）的 Windows x64 运行环境。需要 Java 17 才能跑起来的程序（部分 Minecraft 服务端、教学软件、开源小工具）装上它就能用。\n注意：这里只有 JRE（运行环境），不含 JDK（开发工具包）；要写 Java 代码请去 Adoptium 官网下 JDK。",
+    "version": "17.0.20.1+1",
+    "size": "约 30 MB（x64 MSI 安装版）",
+    "requirements": "Windows 10 / 11（x64）",
+    "iconUrl": "https://adoptium.net/images/adoptium-icon.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64（MSI 安装版） · OpenJDK17U-jre_x64_windows_hotspot_17.0.20.1_1.msi",
+        "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_x64_windows_hotspot_17.0.20.1_1.msi",
+        "size": "30.2 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 压缩包 · OpenJDK17U-jre_x64_windows_hotspot_17.0.20.1_1.zip",
+        "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_x64_windows_hotspot_17.0.20.1_1.zip",
+        "size": "41.8 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "sxsrfayxingz",
+    "name": "手心输入法",
+    "category": "其他工具",
+    "description": "该输入法没有广告，纯净输入，适合安心不打扰",
+    "version": "未知",
+    "size": "未知",
+    "requirements": "WindowsXP及以上，Android，iOS，MacOS",
+    "iconUrl": "https://api.classsoftwarehub.cn/api/icon?k=icon%2F2026%2F10%2Fmv0mnn67-n53sh0-u%3D2950400544%2C491275127%26fm%3D253%26fmt%3Dauto%26app%3D138%26f%3DJPEG_edit_840040946579632.jpg",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "android",
+      "ios"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "官网下载",
+        "url": "http://www.xinshuru.com/index.html?p=win",
+        "size": "体积视版本而定",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "msime-windows",
+    "name": "msime-windows",
+    "category": "其他工具",
+    "description": "水杉输入法（Metasequoia IME）是一款面向 Windows 10、Windows 11 的开源中文输入法，采用纯 TSF 方案。目前支持全拼、双拼、86 五笔和日语罗马音输入，也提供辅助码、云候选、AI 联想、语音输入、手写输入和快捷短语等功能。",
+    "version": "v0.12.0",
+    "size": "未知",
+    "requirements": "Windows",
+    "iconUrl": "https://msime.app/msime-logo.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装版 · MetasequoiaIME_Setup_v0.10.1.exe",
+        "url": "https://github.com/metasequoiaime/msime-windows/releases/download/v0.12.0/MetasequoiaIME_Setup_v0.12.0.exe",
+        "size": "61 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "imageglass",
+    "name": "ImageGlass",
+    "category": "影音图像",
+    "description": "ImageGlass 是一款开源免费的看图软件，开箱支持 90 多种图片格式 —— 除了 JPEG、PNG、GIF、BMP 这些常见格式，还能直接打开 WEBP、SVG、HEIC（iPhone 拍的照片）、AVIF、JXL 以及相机 RAW 文件，教室电脑上收上来的各种奇怪格式的图片基本都能看。它自带旋转、翻转、裁剪、缩放、取色、无损压缩等小工具，支持幻灯片播放与 EXIF 拍摄信息查看，翻大图时靠智能缓存和 Turbo 模式加速，翻页很跟手；窗口可以无边框或全屏，触屏还能用手势缩放，接教学一体机用着顺手。注意：免费的 Classic 版基于 GPLv3、功能已经够用，官网另有一个付费 Pro 版。",
+    "version": "10.0.6.906",
+    "size": "约 34 MB（Windows x64 安装版）",
+    "requirements": "Windows 10/11（x64 / ARM64）、macOS 14+（Apple 芯片）、Linux（X11 x64）",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/d2phap/ImageGlass@develop/source/__assets/logo_c_512.png",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Linux x64（AppImage） · ImageGlass_10.0.6.906_linux-x64.AppImage",
+        "url": "https://github.com/d2phap/ImageGlass/releases/download/10.0.6.906/ImageGlass_10.0.6.906_linux-x64.AppImage",
+        "size": "38.3 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64 FLATPAK · ImageGlass_10.0.6.906_linux-x64.flatpak",
+        "url": "https://github.com/d2phap/ImageGlass/releases/download/10.0.6.906/ImageGlass_10.0.6.906_linux-x64.flatpak",
+        "size": "30.2 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64 压缩包 · ImageGlass_10.0.6.906_linux-x64.tar.gz",
+        "url": "https://github.com/d2phap/ImageGlass/releases/download/10.0.6.906/ImageGlass_10.0.6.906_linux-x64.tar.gz",
+        "size": "40.7 MB",
+        "version": null
+      },
+      {
+        "name": "macOS（Apple 芯片）（磁盘映像） · ImageGlass_10.0.6.906_mac-arm64.dmg",
+        "url": "https://github.com/d2phap/ImageGlass/releases/download/10.0.6.906/ImageGlass_10.0.6.906_mac-arm64.dmg",
+        "size": "41.2 MB",
+        "version": null
+      },
+      {
+        "name": "Windows ARM64 MSIX · ImageGlass_10.0.6.906_win-arm64.msix",
+        "url": "https://github.com/d2phap/ImageGlass/releases/download/10.0.6.906/ImageGlass_10.0.6.906_win-arm64.msix",
+        "size": "42.1 MB",
+        "version": null
+      },
+      {
+        "name": "Windows ARM64 压缩包 · ImageGlass_10.0.6.906_win-arm64.zip",
+        "url": "https://github.com/d2phap/ImageGlass/releases/download/10.0.6.906/ImageGlass_10.0.6.906_win-arm64.zip",
+        "size": "39.6 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64（MSI 安装版） · ImageGlass_10.0.6.906_win-x64.msi",
+        "url": "https://github.com/d2phap/ImageGlass/releases/download/10.0.6.906/ImageGlass_10.0.6.906_win-x64.msi",
+        "size": "33.8 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 MSIX · ImageGlass_10.0.6.906_win-x64.msix",
+        "url": "https://github.com/d2phap/ImageGlass/releases/download/10.0.6.906/ImageGlass_10.0.6.906_win-x64.msix",
+        "size": "44.3 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 压缩包 · ImageGlass_10.0.6.906_win-x64.zip",
+        "url": "https://github.com/d2phap/ImageGlass/releases/download/10.0.6.906/ImageGlass_10.0.6.906_win-x64.zip",
+        "size": "41.9 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "easy-pdf",
+    "name": "Easy PDF",
+    "category": "办公通讯",
+    "description": "一款轻量级的 PDF 处理工具，主打简单易用，阅读、合并、拆分和格式转换这些日常需求都能覆盖，不用为了看几个 PDF 去装几百兆的专业软件，教室电脑上装一个够用了。",
+    "version": "上次更新日期  2026/8/7",
+    "size": "269.7 MB",
+    "requirements": "Windows 10/11",
+    "iconUrl": "https://store-images.s-microsoft.com/image/apps.12156.14469075154290609.fdf68dd1-44b5-46ad-bd5c-8db7f4fc1547.ed841955-a203-4e78-8429-c10e181cf8b8?h=170",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "通过 Microsoft Store 下载",
+        "url": "https://apps.microsoft.com/detail/9p02klsbznmn?hl=zh-CN&gl=CN",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "geogebra",
+    "name": "GeoGebra 经典（数学绘图）",
+    "category": "教学课堂",
+    "description": "GeoGebra 是面向数学教学的免费开源动态数学软件，把几何、代数、表格、图形、统计和微积分整合在一起。画函数图像、做几何演示、动态验证定理都很方便，还支持 3D 绘图与在线课件（GeoGebra 资源站有大量现成课件可直接用）。支持 Windows / macOS / Linux / 网页 / 手机端。",
+    "version": "6.0.934.0",
+    "size": "68 MB ~ 134 MB",
+    "requirements": "Windows / macOS / Linux，另有网页版与手机版",
+    "iconUrl": "https://store-images.microsoft.com/image/apps.27233.9007199266244643.adf01f4e-e4ac-49d7-88d3-d524d2674fdb.90d48d4d-3d93-4c91-9acd-b3931e8c3142",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux",
+      "android",
+      "ios",
+      "web"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Classic 6 自动更新版 · 推荐；官方「始终最新」安装包，装了以后能自动更新",
+        "url": "https://download.geogebra.org/package/win-autoupdate",
+        "size": "134 MB",
+        "version": null
+      },
+      {
+        "name": "Classic 5 安装版 · 旧版界面，兼容老课件；同样是官方最新地址",
+        "url": "https://download.geogebra.org/package/win",
+        "size": "69 MB",
+        "version": null
+      },
+      {
+        "name": "官网下载页 · 可选 Classic 套件、几何、3D 等不同应用",
+        "url": "https://www.geogebra.org/download?lang=zh-CN",
+        "size": "网页",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "usefulcontrol",
+    "name": "UsefulControl",
+    "category": "其他工具",
+    "description": "实用工具集合小工具 - 一款为大屏类电脑（如希沃）编写的实用工具，当然普通电脑也可以使用。\n\n本程序支持的功能有：\n\n 系统操作（睡眠，休眠，锁定，关闭屏幕，调节音量，强制重启，强制关机）\n 小工具系列（时钟锁屏屏保，公告栏，图片展示，一键关闭课件）\n 模拟界面系列（模拟希沃联想关机界面，模拟系统关机界面，模拟黑屏）",
+    "version": "1.0.15.25022",
+    "size": "未知",
+    "requirements": "Windows",
+    "iconUrl": "https://api.classsoftwarehub.cn/api/icon?k=icon%2F2026%2F10%2Fmvagrlen-ek66dr-appicon.webp",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "x86 x64 安装包 · UsefulControl-1.0.15.25022-Bin.7z",
+        "url": "https://github.com/cjhdevact/UsefulControl/releases/download/1.0.15.25022/UsefulControl-1.0.15.25022-Bin.7z",
+        "size": "1.2 MB",
+        "version": null
+      },
+      {
+        "name": "Windows Vista+ 组策略文件 · UsefulControlAdmxs.exe",
+        "url": "https://github.com/cjhdevact/UsefulControl/releases/download/1.0.15.25022/UsefulControlAdmxs.exe",
+        "size": "352 KB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "iobitunlockerayxingz",
+    "name": "IObit Unlocker",
+    "category": "系统工具",
+    "description": "当你在删文件是发现文件正在占用，不妨试试它",
+    "version": "1.3.0.12",
+    "size": "2.18MB",
+    "requirements": "Windows",
+    "iconUrl": "https://api.classsoftwarehub.cn/api/icon?k=icon%2F2026%2F10%2Fmv2h187p-cib0pr-e576f78a226b6a5eb1b665b5acf7b863.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows",
+        "url": "https://www.iobit.com/en/iobit-unlocker.php",
+        "size": "2.18MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "violet-toolbox",
+    "name": "紫罗兰工具箱",
+    "category": "系统工具",
+    "description": "紫罗兰工具箱，\n面向Android开发的\n多功能刷机工具",
+    "version": "v3.7.0",
+    "size": "34.9 MB",
+    "requirements": "Windows",
+    "iconUrl": "https://avatars.githubusercontent.com/u/208893381?s=60&v=4",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "下载",
+        "url": "https://developer4.lanrar.com/file/?BGJQbgs6UmMCCwoyCz5VOQA/VGxX71DmAKxRsFa3BJIC51uJDOEDsla3BfZQ4QKGBusG5F+uUOMEVVpvAXMEMgQqUGILLlJjAnIKOgs2VTgAP1QOV2FQNgA6UWRWOAQ3AjZbOwxiA25WNQVjUCICZQYvBj5fM1BmBDpabwFoBDIEMFA/C3BSdgIkCmELbVVkAGhUZ1cnUGMAN1F4VjoEMAItW20MNQNmVjcFalBgAjQGagYwXzBQMARiWmkBOAQ1BGdQNgtvUjQCbAptC21VNwBuVGFXbVBgAGFRb1ZoBD0CNFsiDDQDL1ZlBXVQcQJwBjkGcV9pUDYEPlpoAWwEMQQwUDULYlIxAnIKKAs2VTkAP1Q3VzVQYwAwUW5WOAQ3AjZbPgxlA2dWOQV1UGICbwYrBj5fMVBlBDpabgFvBDEENVA/C2ZSMwJyCikLL1UjAGdUYFc/UGsANlFlVjoEMgI0WzsMZgNxVnUFOlB0Aj4GbQY7XzNQfAQxWm0BagQrBDVQPgtlUigCYwptC3lVMAA2VGxXOA==",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "fluentview",
+    "name": "FluentView",
+    "category": "影音图像",
+    "description": "基于 PyQt5 + PyQt-Fluent-Widgets 的现代风格照片查看器。且能在Win7系统运行",
+    "version": "1.6.0",
+    "size": "80MB",
+    "requirements": "Windows",
+    "iconUrl": "https://api.classsoftwarehub.cn/api/icon?k=icon%2F2026%2F10%2Fmv3n5eh5-kn7b9n-FluentView_1.ico",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows便携版 · FluentView-v1.5.0-x64.exe",
+        "url": "https://github.com/minecraft-os/FluentView/releases/download/1.6.0/FluentView-v1.6.0-x64.exe",
+        "size": "94 MB",
+        "version": null
+      },
+      {
+        "name": "Windows 安装版 · FluentView_Setup.exe",
+        "url": "https://github.com/minecraft-os/FluentView/releases/download/1.6.0/FluentView_Setup.exe",
+        "size": "37 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "pyas",
+    "name": "PYAS",
+    "category": "系统工具",
+    "description": "一款开源的强大杀毒软件，体积小，占用低（较激进，易误杀）",
+    "version": "v3.7.1",
+    "size": "未知",
+    "requirements": "Windows",
+    "iconUrl": "https://avatars.githubusercontent.com/u/85057800?v=4",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装版 · PYAS_Setup.exe",
+        "url": "https://github.com/87owo/PYAS/releases/download/v3.7.1/PYAS_Setup.exe",
+        "size": "75.5 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "heysafex",
+    "name": "Heysafe",
+    "category": "系统工具",
+    "description": "HeySafe-X干净防护少打扰，面向 Windows 的端点防护。实时拦截病毒、木马与勒索软件，清晰呈现处置过程，必要时一键隔离。",
+    "version": "0.3.1",
+    "size": "12.42，这是离线完整安装包，在线只有7",
+    "requirements": "Win10/win11 64位",
+    "iconUrl": "https://api.classsoftwarehub.cn/api/icon?k=icon%2F2026%2F10%2Fmuyqxmr0-sipry6-Screenshot_20261008_073441.webp",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows10/11 · 离线完整安装包（无法连网时请使用）",
+        "url": "https://heysafex.com",
+        "size": "12.42",
+        "version": null
+      },
+      {
+        "name": "Windows10/11 · 在线安装器（会联网获取完整组件)",
+        "url": "https://heysafex.com",
+        "size": "7.25",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "VirusDetector",
+    "name": "反银狐病毒浏览器插件VirusDetector",
+    "category": "系统工具",
+    "description": "由 B 站 UP 主「酪酪肽酪酪」制作的浏览器插件，用来检测当前网页是否被植入银狐木马病毒，并提示正确的官方网址，防止老师从假冒站点下载到木马安装包，向黑产网页宣战！",
+    "version": "2.5.2",
+    "size": "0.1 MB",
+    "requirements": "浏览器（Chrome/Edge 等）",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/Lolitide/VirusDetector@main/icons/icon128.png",
+    "tags": [],
+    "platforms": [
+      "web"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "123云盘 · 123云盘提取码：jlgt",
+        "url": "https://1829353051.share.123pan.cn/123pan/wabZjv-TQyQv?pwd=jlgt#",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "百度网盘 · 百度网盘提取码: idh7",
+        "url": "https://pan.baidu.com/s/1bOHJkkYiZWWbAR8EXXmYBA?pwd=idh7",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "夸克网盘 · 夸克网盘提取码：6Vqn",
+        "url": "https://pan.quark.cn/s/780c4d00d7c8",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "starpie",
+    "name": "StarPie",
+    "category": "系统工具",
+    "description": "StarPie 现代化 Windows 鼠标轮盘手势系统",
+    "version": "v2.0.0",
+    "size": "未知",
+    "requirements": "Windows",
+    "iconUrl": "https://avatars.githubusercontent.com/u/329320540?v=4",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 轻量包 · 需系统已安装 .NET 8 Desktop Runtime x64",
+        "url": "https://github.com/Star-Pie/StarPie/releases/download/v2.0.0/StarPie-v2.0.0-Lightweight-win-x64.zip",
+        "size": "12 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 安装版 · 含 .NET 运行时，支持开始菜单与桌面快捷方式",
+        "url": "https://github.com/Star-Pie/StarPie/releases/download/v2.0.0/StarPie-v2.0.0-Setup-win-x64.exe",
+        "size": "53.6 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 免安装完整包 · 含 .NET 运行时，解压即用",
+        "url": "https://github.com/Star-Pie/StarPie/releases/download/v2.0.0/StarPie-v2.0.0-Standalone-win-x64.zip",
+        "size": "76.4 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "translucenttbayxingz",
+    "name": "TranslucentTB",
+    "category": "系统工具",
+    "description": "TranslucentTB 能把 Windows 任务栏改成完全透明、毛玻璃或纯色，还能根据状态自动切换 —— 比如回到桌面时变透明、有窗口最大化时恢复不透明，看着清爽又不影响辨认。它常驻系统托盘、内存占用极小，设成开机自启之后就完全不用管。适合想让教室电脑桌面更干净的人。注意：仅支持 Windows 10/11；便携版解压即用，商店版需要系统自带微软商店。",
+    "version": "2026.2",
+    "size": "约 2 MB（x64 便携版）",
+    "requirements": "Windows 10 / 11（x64 / ARM64）",
+    "iconUrl": "https://store-images.s-microsoft.com/image/apps.58066.14207443949651364.14d58b87-611d-43f5-96e3-f7ac6427a4b6.58ce0f51-544a-4e90-88a8-f7a1e3e7c3e7?h=170",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "其他 MSIXBUNDLE · bundle.msixbundle",
+        "url": "https://github.com/TranslucentTB/TranslucentTB/releases/download/2026.2/bundle.msixbundle",
+        "size": "4.0 MB",
+        "version": null
+      },
+      {
+        "name": "其他 ARM64 便携版 · TranslucentTB-portable-arm64.zip",
+        "url": "https://github.com/TranslucentTB/TranslucentTB/releases/download/2026.2/TranslucentTB-portable-arm64.zip",
+        "size": "1.6 MB",
+        "version": null
+      },
+      {
+        "name": "其他 x64 便携版 · TranslucentTB-portable-x64.zip",
+        "url": "https://github.com/TranslucentTB/TranslucentTB/releases/download/2026.2/TranslucentTB-portable-x64.zip",
+        "size": "1.7 MB",
+        "version": null
+      },
+      {
+        "name": "其他 APPINSTALLER · TranslucentTB.appinstaller",
+        "url": "https://github.com/TranslucentTB/TranslucentTB/releases/download/2026.2/TranslucentTB.appinstaller",
+        "size": "2.5 KB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "komi-store",
+    "name": "komi-store",
+    "category": "系统工具",
+    "description": "🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.",
+    "version": "v1.9.4",
+    "size": "未知",
+    "requirements": "Windows / macOS / Linux / Android",
+    "iconUrl": "https://avatars.githubusercontent.com/u/323530639?v=4",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux",
+      "android"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 便携版 · Komi-Store-1.9.2-windows-portable.zip",
+        "url": "https://github.com/komi-store/komi-store/releases/download/v1.9.4/Komi-Store-1.9.4-windows-portable.zip",
+        "size": "187 MB",
+        "version": null
+      },
+      {
+        "name": "macOS（Intel）（磁盘映像） · Komi-Store-1.9.2-x64.dmg",
+        "url": "https://github.com/komi-store/komi-store/releases/download/v1.9.4/Komi-Store-1.9.4-x64.dmg",
+        "size": "201 MB",
+        "version": null
+      },
+      {
+        "name": "Android（APK） · Komi-Store-1.9.2.apk",
+        "url": "https://github.com/komi-store/komi-store/releases/download/v1.9.4/Komi-Store-1.9.4.apk",
+        "size": "43 MB",
+        "version": null
+      },
+      {
+        "name": "Windows 安装版 · Komi-Store-1.9.2.exe",
+        "url": "https://github.com/komi-store/komi-store/releases/download/v1.9.4/Komi-Store-1.9.4.exe",
+        "size": "187 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64（.deb） · komi-store_1.9.2-1.9.2_amd64-debian12.deb",
+        "url": "https://github.com/komi-store/komi-store/releases/download/v1.9.4/komi-store_1.9.4-1.9.4_amd64-debian12.deb",
+        "size": "166 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "fastgithub",
+    "name": "FastGitHub",
+    "category": "网络工具",
+    "description": "GitHub加速神器，解决GitHub打不开、用户头像无法加载、Releases无法上传下载、git-clone、git-pull、git-push失败等问题",
+    "version": "v2.1.5",
+    "size": "未知",
+    "requirements": "Windows / macOS / Linux",
+    "iconUrl": "https://api.classsoftwarehub.cn/api/icon?k=icon%2F2026%2F10%2Fmv2eig9w-jkhmys-8.ico",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 压缩包 · fastgithub_win-x64.zip",
+        "url": "oss://releases/2026/10/mv2ehxzf-u5aulp-FastGithub.UI.exe",
+        "size": "16.5 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "crystaldiskinfo",
+    "name": "CrystalDiskInfo",
+    "category": "系统工具",
+    "description": "显示硬盘/固态硬盘的健康状态，提供多种详细信息",
+    "version": "未知",
+    "size": "未知",
+    "requirements": "Windows 10+",
+    "iconUrl": "https://api.classsoftwarehub.cn/api/icon?k=icon%2F2026%2F10%2Fmvv0aw2d-g959n7-image.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows",
+        "url": "https://apps.microsoft.com/detail/xp8k4rgx25g3gm?hl=zh-CN&gl=CN",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "pixlens",
+    "name": "PixLens",
+    "category": "系统工具",
+    "description": "本地离线免费 OCR 图片文字提取工具，支持表格识别导出 Excel，深色/浅色双主题，启动轻快",
+    "version": "v1.2.0",
+    "size": "85.8MB",
+    "requirements": "Windows系统均可",
+    "iconUrl": "https://avatars.githubusercontent.com/u/313223487?v=4",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "其他 压缩包 · PixLens-v1.2.0.zip",
+        "url": "https://github.com/G95467/PixLens/releases/download/v1.2.0/PixLens-v1.2.0.zip",
+        "size": "85.8 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "pulse",
+    "name": "pulse",
+    "category": "其他工具",
+    "description": "为 Windows 打造的现代文件管理器，让浏览、搜索和整理文件更顺手。  |   QQ Group  1043250162",
+    "version": "v1.0.58",
+    "size": "未知",
+    "requirements": "Windows 10+",
+    "iconUrl": "https://avatars.githubusercontent.com/u/137846552?v=4",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "其他 LZMS · ai-win81-Pulse.AI.exe.lzms",
+        "url": "https://github.com/jimmgreen/pulse/releases/download/v1.0.58/ai-win81-Pulse.AI.exe.lzms",
+        "size": "149 KB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "touchglide",
+    "name": "TouchGlide",
+    "category": "教学课堂",
+    "description": "TouchGlide\n让不适配触屏滚动的 Windows 桌面应用重新支持手指滑动。\n\n单个 EXE · 无安装 · 无运行时依赖 · Windows 10 / 11\n\nEnglish · 下载\n\n它解决什么问题？\n一些 Windows 桌面应用把手指拖动误识别成鼠标左键拖拽：聊天列表划不动、内容会被选中，触屏设备不得不接回鼠标。\n\nTouchGlide 将这类应用中的单指拖动转为定向滚轮消息，并提供惯性滚动；轻点、双击、长按仍由 Windows 原生处理。\n\n初始预设适配：微信 Windows 4.x（Weixin.exe / WeChat.exe / WeChatAppEx.exe）。\n\n下载与使用\n在 Releases 下载 TouchGlide.exe。\n双击运行。首次运行会出现托盘图标，并自动创建 TouchGlide.ini。\n打开微信，直接用手指上下划动列表或内容区。\n右键托盘图标可暂停、切换自然滚动、开启开机自启，或打开配置文件。\n无需管理员权限、无需安装、无需修改微信文件。\n\n若 Windows SmartScreen 显示提示：这是未签名的全新开源程序的正常行为。请只从本仓库 Release 下载，并可自行从源码构建核验。\n\n手势\n手势\t行为\n单指滑动\t平滑滚动（自动锁定横/纵方向）\n快速甩动后松手\t惯性滚动\n轻点 / 双击\t原生点击 / 双击\n长按\t原生 Windows 长按右键菜单\n窗口顶部标题栏\t不接管，保留原生拖动窗口行为\n配置\n首次运行后的 TouchGlide.ini：绿色版优先放在 EXE 同目录；若目录不可写，则放在 %APPDATA%\\TouchGlide\\TouchGlide.ini。\n\n[general]\nenabled=1\nnatural=1\nnotch=0\n\n[scroll]\nscale=3.2\n; 0.90-0.97，越大惯性越远\ndecay=0.94\n\n[targets]\nlist=Weixin.exe,WeChat.exe,WeChatAppEx.exe\n保存配置后约 1 秒自动生效，无需重启程序。\n\n安全与隐私边界\nTouchGlide 的设计边界是刻意收紧的：\n\n不注入目标进程，不 Hook 目标进程；\n不读取聊天记录、窗口内容、账号或任何应用数据；\n不模拟微信协议，不连接微信服务器；\n不群发、不自动回复、不多开、不执行账号自动化；\n仅在 Windows 系统输入层识别触摸拖动，并向命中的窗口投递标准滚轮消息。\nTouchGlide 与腾讯/微信没有任何隶属、授权或合作关系；“微信”仅用于说明兼容目标。使用者应自行遵守目标应用服务协议。\n\n构建\n需要 MinGW-w64（g++、windres）和 Bash：\n\nbash build.sh\n# 产物: build/TouchGlide.exe\n产物是静态链接的原生 x64 Windows EXE。\n\n已验证环境\nWindows 11 26200（触屏设备）\n微信 Windows 4.x\n手指滑动、惯性、轻点、双击、长按右键、聊天区域与公众号内容区域\n欢迎在 Issue 中报告其他 Windows 版本、DPI 缩放和应用兼容性结果。\n\n许可证\nMIT",
+    "version": "v0.1.0",
+    "size": "未知",
+    "requirements": "Windows",
+    "iconUrl": "https://avatars.githubusercontent.com/u/120377625?v=4",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装版 · TouchGlide.exe",
+        "url": "https://github.com/likangxian1007/TouchGlide/releases/download/v0.1.0/TouchGlide.exe",
+        "size": "1.0 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "watttoolkit",
+    "name": "Watt Toolkit",
+    "category": "网络工具",
+    "description": "Watt Toolkit（原名 Steam++）是一款开源免费的多功能工具箱，常用功能包括 Steam 社区与商店加速、GitHub 页面与下载加速、脚本扩展等，网络环境受限时访问这些站点会顺畅不少。安装后按需开启对应模块即可。",
+    "version": "3.1.0",
+    "size": "438.1 MB",
+    "requirements": "Windows 10/11、Android、iOS、macOS、Linux",
+    "iconUrl": "https://store-images.s-microsoft.com/image/apps.49815.13810726275500961.53450795-b99b-437a-849b-6599bed03235.164e92bb-9c74-4d22-8a35-7e1530f9dc4e?h=170",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux",
+      "android",
+      "ios"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "通过 Microsoft Store 下载",
+        "url": "https://apps.microsoft.com/detail/9mtcfhs560ng?launch=true&hl=zh-CN&gl=CN",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "dsh-desktop",
+    "name": "dsh-desktop",
+    "category": "其他工具",
+    "description": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
+    "version": "v2.0.21-next",
+    "size": "未知",
+    "requirements": "Windows / macOS / Linux",
+    "iconUrl": "https://avatars.githubusercontent.com/u/286827603?v=4",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Linux x64（.deb） · DSH-NEXT-2.0.17-next-amd64.deb",
+        "url": "https://github.com/anywhere-labs/dsh-desktop/releases/download/v2.0.21-next/DSH-NEXT-2.0.21-next-amd64.deb",
+        "size": "311 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64 压缩包 · DSH-NEXT-2.0.17-next-linux-x64.tar.gz",
+        "url": "https://github.com/anywhere-labs/dsh-desktop/releases/download/v2.0.21-next/DSH-NEXT-2.0.21-next-linux-x64.tar.gz",
+        "size": "397 MB",
+        "version": null
+      },
+      {
+        "name": "macOS（磁盘映像） · DSH-NEXT-2.0.17-next-universal.dmg",
+        "url": "https://github.com/anywhere-labs/dsh-desktop/releases/download/v2.0.21-next/DSH-NEXT-2.0.21-next-universal.dmg",
+        "size": "720 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 安装版 · DSH-NEXT-2.0.17-next-x64-Setup.exe",
+        "url": "https://github.com/anywhere-labs/dsh-desktop/releases/download/v2.0.21-next/DSH-NEXT-2.0.21-next-x64-Setup.exe",
+        "size": "309 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64（AppImage） · DSH-NEXT-2.0.17-next-x86_64.AppImage",
+        "url": "https://github.com/anywhere-labs/dsh-desktop/releases/download/v2.0.21-next/DSH-NEXT-2.0.21-next-x86_64.AppImage",
+        "size": "361 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "keystats",
+    "name": "keyStats",
+    "category": "其他工具",
+    "description": "Keyboard & Mouse Stats for macOS/Windows",
+    "version": "v1.55",
+    "size": "未知",
+    "requirements": "Windows / macOS",
+    "iconUrl": "https://avatars.githubusercontent.com/u/62830430?v=4",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "其他 XML · appcast.xml",
+        "url": "https://github.com/debugtheworldbot/keyStats/releases/download/v1.55/appcast.xml",
+        "size": "0.8 KB",
+        "version": null
+      },
+      {
+        "name": "Windows 压缩包 · KeyStats-Windows-1.54.zip",
+        "url": "https://github.com/debugtheworldbot/keyStats/releases/download/v1.55/KeyStats-Windows-1.55.zip",
+        "size": "4.6 MB",
+        "version": null
+      },
+      {
+        "name": "macOS（磁盘映像） · KeyStats.dmg",
+        "url": "https://github.com/debugtheworldbot/keyStats/releases/download/v1.55/KeyStats.dmg",
+        "size": "4.0 MB",
+        "version": null
+      },
+      {
+        "name": "其他 压缩包 · KeyStats.zip",
+        "url": "https://github.com/debugtheworldbot/keyStats/releases/download/v1.55/KeyStats.zip",
+        "size": "3.6 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "9wzdncrfjbmp",
+    "name": "Microsoft Store",
+    "category": "系统工具",
+    "description": "直达微软官方的应用商店（Microsoft Store）。商店里的软件都经过微软审核、由商店统一更新，装完不用自己盯版本；不少常用的免费软件在商店里都有正版版本，适合教室里图省事的装机方式。",
+    "version": "上次更新日期  2026/8/28",
+    "size": "132.4 MB",
+    "requirements": "Windows 10 +",
+    "iconUrl": "https://store-images.s-microsoft.com/image/apps.23920.9007199266252480.ef650c0b-5855-42e5-95aa-16fe9d95c138.a336dde8-771a-4160-a7dc-b2f0cc3f4b6b?h=170",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Download",
+        "url": "https://apps.microsoft.com/detail/9wzdncrfjbmp?hl=zh-CN&gl=CN",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "lively",
+    "name": "Lively Wallpaper",
+    "category": "影音图像",
+    "description": "Lively Wallpaper 是一款开源免费的动态壁纸软件，可以把视频、GIF、网页甚至程序当成桌面壁纸，玩法与 Wallpaper Engine 类似，但完全免费、没有广告。内置壁纸库可以直接挑，也支持导入自己下载的视频或网页；多显示器可以各设一张，还能设置全屏应用运行时自动暂停，免得占用课件或游戏的性能。适合想让教室电脑桌面不那么单调的人。",
+    "version": "v2.2.1.0",
+    "size": "约 210 MB",
+    "requirements": "Windows 10 / 11（x64）",
+    "iconUrl": "https://store-images.s-microsoft.com/image/apps.4720.14416131676512756.84314783-1c86-4403-b991-2e1da8525703.bf78340f-7059-4641-8d3f-8a7f740be8c0?h=134",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "其他 压缩包 · lively_command_utility.zip",
+        "url": "https://github.com/rocksdanister/lively/releases/download/v2.2.1.0/lively_command_utility.zip",
+        "size": "9.4 MB",
+        "version": null
+      },
+      {
+        "name": "其他 压缩包 · lively_player_cefsharp.zip",
+        "url": "https://github.com/rocksdanister/lively/releases/download/v2.2.1.0/lively_player_cefsharp.zip",
+        "size": "156 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x86 安装版 · lively_setup_x86_full_v2210.exe",
+        "url": "https://github.com/rocksdanister/lively/releases/download/v2.2.1.0/lively_setup_x86_full_v2210.exe",
+        "size": "208 MB",
+        "version": null
+      },
+      {
+        "name": "其他 压缩包 · lively_utility_screensaver.zip",
+        "url": "https://github.com/rocksdanister/lively/releases/download/v2.2.1.0/lively_utility_screensaver.zip",
+        "size": "4.1 KB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "dreamscene2",
+    "name": "DreamScene2",
+    "category": "影音图像",
+    "description": "DreamScene2 可以把视频、网页地址或本地网页文件设成 Windows 的动态桌面，让壁纸动起来。支持设置开机后自动播放、指定在哪个显示器上播放、全屏应用运行时自动暂停（免得抢性能），也能用命令行播放指定文件。体积很小，前提是系统已安装 .NET Framework 4.7.2（下载项里附了在线安装程序）。",
+    "version": "v1.7",
+    "size": "约 255 KB（不含 .NET 运行时）",
+    "requirements": "Windows 10 / 11（需 .NET Framework 4.7.2）",
+    "iconUrl": "https://store-images.s-microsoft.com/image/apps.46996.14313494737087364.6a2abb62-603b-4bc7-a961-2db2b4de9ef3.862a6626-2d1f-431f-a0cc-2f842632a618?h=134",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 便携版 · 有.Net Framework 4.7.2前置",
+        "url": "https://github.com/he55/DreamScene2/releases/download/v1.7/net472.zip",
+        "size": "255 KB",
+        "version": null
+      },
+      {
+        "name": "前置运行时 · 前置运行时",
+        "url": "https://download.visualstudio.microsoft.com/download/pr/1f5af042-d0e4-4002-9c59-9ba66bcf15f6/124d2afe5c8f67dfa910da5f9e3db9c1/ndp472-kb4054531-web.exe",
+        "size": "1.33MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "xpfp7f8rl7mb1w",
+    "name": "Bing Wallpaper",
+    "category": "影音图像",
+    "description": "微软官方出品的壁纸工具，每天自动把必应首页的精选图片设为桌面壁纸，并附带图片出处信息卡片，也可以手动翻看往期图片。给教室大屏换个好看的背景，开机就有新鲜感。",
+    "version": "上次更新日期  2026/3/12",
+    "size": "未知",
+    "requirements": "Windows 10 +",
+    "iconUrl": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBeRogmRf1xieDJbrjYvc.hUvqidNQtgZY7VtoCuVM31yHuXAFled7S57y0AM6xx1XMCHawJ_zIRORv7SCOGYUFs-&format=source&h=307",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "通过 Microsoft Store 下载",
+        "url": "https://apps.microsoft.com/detail/xpfp7f8rl7mb1w?hl=zh-CN&gl=CN",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "lx-music-desktop",
+    "name": "LX Music 桌面版",
+    "category": "影音图像",
+    "description": "一个免费&开源的音乐查找工具，免费且无广告，基于 Electron",
+    "version": "v2.12.6",
+    "size": "100MB+",
+    "requirements": "Windows / macOS / Linux",
+    "iconUrl": "https://lxmusic.toside.cn/img/logo.svg",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "macOS（Apple 芯片）（磁盘映像） · lx-music-desktop-2.12.6-arm64.dmg",
+        "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-2.12.6-arm64.dmg",
+        "size": "125 MB",
+        "version": null
+      },
+      {
+        "name": "Windows ARM64 安装版 · lx-music-desktop-v2.12.6-arm64-Setup.exe",
+        "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-v2.12.6-arm64-Setup.exe",
+        "size": "111 MB",
+        "version": null
+      },
+      {
+        "name": "Windows7 x64 安装版 · lx-music-desktop-v2.12.6-win7_x64-Setup.exe",
+        "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-v2.12.6-win7_x64-Setup.exe",
+        "size": "80.8 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 安装版 · lx-music-desktop-v2.12.6-x64-Setup.exe",
+        "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-v2.12.6-x64-Setup.exe",
+        "size": "116 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64（.deb） · lx-music-desktop_2.12.6_amd64.deb",
+        "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop_2.12.6_amd64.deb",
+        "size": "104 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "lx-music-mobile",
+    "name": "Lx Music移动端",
+    "category": "影音图像",
+    "description": "一个免费&开源的音乐查找工具，免费且无广\n告，一个基于 React native 开发的音乐软件。\n和桌面端一样需要导入自定义源",
+    "version": "v1.9.1",
+    "size": "未知",
+    "requirements": "Android",
+    "iconUrl": "https://lxmusic.toside.cn/img/logo.svg",
+    "tags": [],
+    "platforms": [
+      "android"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Android ARM64（APK） · lx-music-mobile-v1.9.1-arm64-v8a.apk",
+        "url": "https://github.com/lyswhut/lx-music-mobile/releases/download/v1.9.1/lx-music-mobile-v1.9.1-arm64-v8a.apk",
+        "size": "13.2 MB",
+        "version": null
+      },
+      {
+        "name": "Android（APK） · lx-music-mobile-v1.9.1-armeabi-v7a.apk",
+        "url": "https://github.com/lyswhut/lx-music-mobile/releases/download/v1.9.1/lx-music-mobile-v1.9.1-armeabi-v7a.apk",
+        "size": "12.3 MB",
+        "version": null
+      },
+      {
+        "name": "Android 通用（APK） · lx-music-mobile-v1.9.1-universal.apk",
+        "url": "https://github.com/lyswhut/lx-music-mobile/releases/download/v1.9.1/lx-music-mobile-v1.9.1-universal.apk",
+        "size": "27.5 MB",
+        "version": null
+      },
+      {
+        "name": "Android x86（APK） · lx-music-mobile-v1.9.1-x86.apk",
+        "url": "https://github.com/lyswhut/lx-music-mobile/releases/download/v1.9.1/lx-music-mobile-v1.9.1-x86.apk",
+        "size": "13.7 MB",
+        "version": null
+      },
+      {
+        "name": "Android x64（APK） · lx-music-mobile-v1.9.1-x86_64.apk",
+        "url": "https://github.com/lyswhut/lx-music-mobile/releases/download/v1.9.1/lx-music-mobile-v1.9.1-x86_64.apk",
+        "size": "13.5 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "musicfree",
+    "name": "MusicFree移动端",
+    "category": "影音图像",
+    "description": "插件化、定制化、无广告的免费音乐播放器\n需要导入音源",
+    "version": "v0.6.2",
+    "size": "未知",
+    "requirements": "Android",
+    "iconUrl": "https://musicfree.catcat.work/",
+    "tags": [],
+    "platforms": [
+      "android"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Android ARM64（APK） · app-arm64-v8a-release.apk",
+        "url": "https://github.com/maotoumao/MusicFree/releases/download/v0.6.2/app-arm64-v8a-release.apk",
+        "size": "17.4 MB",
+        "version": null
+      },
+      {
+        "name": "Android（APK） · app-armeabi-v7a-release.apk",
+        "url": "https://github.com/maotoumao/MusicFree/releases/download/v0.6.2/app-armeabi-v7a-release.apk",
+        "size": "16.8 MB",
+        "version": null
+      },
+      {
+        "name": "Android 通用（APK） · app-universal-release.apk",
+        "url": "https://github.com/maotoumao/MusicFree/releases/download/v0.6.2/app-universal-release.apk",
+        "size": "30.2 MB",
+        "version": null
+      },
+      {
+        "name": "Android x86（APK） · app-x86-release.apk",
+        "url": "https://github.com/maotoumao/MusicFree/releases/download/v0.6.2/app-x86-release.apk",
+        "size": "17.8 MB",
+        "version": null
+      },
+      {
+        "name": "Android x64（APK） · app-x86_64-release.apk",
+        "url": "https://github.com/maotoumao/MusicFree/releases/download/v0.6.2/app-x86_64-release.apk",
+        "size": "17.5 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "qq-music",
+    "name": "QQ音乐",
+    "category": "影音图像",
+    "description": "QQ音乐是腾讯音乐娱乐集团旗下的音乐流媒体平台",
+    "version": "未知",
+    "size": "≈110MB",
+    "requirements": "Windows",
+    "iconUrl": "https://bee-reg-ab.imagency.cn/mr/6874/26/6ac4a93c2efeb.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows · 此处仅提供Windows平台如需其他平台还请移步官网",
+        "url": "https://y.qq.com/download/download.html",
+        "size": "≈110MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "potplayer",
+    "name": "PotPlayer 播放器",
+    "category": "影音图像",
+    "description": "PotPlayer 是 Kakao（原 Daum）出品的免费视频播放器，解码能力极强、资源占用低，支持几乎所有常见格式，字幕、音轨切换、倍速播放（还能保音调）、逐帧播放、截屏录屏、3D/VR 等一应俱全。放课件视频、英语听力、电影都很合适，是很多教室电脑的主力播放器。",
+    "version": "26.10.21.0",
+    "size": "约 30 MB",
+    "requirements": "Windows 7 ~ 11（32 / 64 / ARM64）",
+    "iconUrl": "https://tse4-mm.cn.bing.net/th/id/OIP-C.RZU5vtuGv4JxeGmSHX4__AHaHa?w=167&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 64 位 · 推荐；官方「Latest」直链，始终是最新版",
+        "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe",
+        "size": "约 30 MB",
+        "version": null
+      },
+      {
+        "name": "Windows 32 位 · 老机器 / 32 位系统用",
+        "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe",
+        "size": "约 26 MB",
+        "version": null
+      },
+      {
+        "name": "Windows ARM64 · ARM 设备（骁龙本等）用",
+        "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetupARM64.exe",
+        "size": "约 30 MB",
+        "version": null
+      },
+      {
+        "name": "官网 · 官方主页与更新日志",
+        "url": "https://potplayer.daum.net/",
+        "size": "网页",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "vlc",
+    "name": "VLC media player",
+    "category": "影音图像",
+    "description": "VLC 是 VideoLAN 出品的开源免费播放器，几乎支持所有音视频格式（mp4、mkv、rmvb、flv、ts 等），自带解码器，不用额外装解码包；还支持字幕、倍速、截屏、录制、投屏与网络串流。教室放视频、放听力材料、播奇怪格式的课件视频都很省心，无广告、无捆绑。",
+    "version": "3.0.24",
+    "size": "46 MB",
+    "requirements": "Windows 7 ~ 11（32 / 64 位）",
+    "iconUrl": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxiJK_HEPrjdesdyeQIKBd8CBvNetP6BxGK.pnI6V6UrP..SFKuYcvjaTTLsMfla_EO_Eyc658MMDVP0xiKCnUoo-&format=source",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 64 位安装版 · 推荐；常规 64 位系统选这个",
+        "url": "https://get.videolan.org/vlc/last/win64/vlc-3.0.24-win64.exe",
+        "size": "44 MB",
+        "version": null
+      },
+      {
+        "name": "Windows 32 位安装版 · 老机器 / 32 位系统用",
+        "url": "https://get.videolan.org/vlc/last/win32/vlc-3.0.24-win32.exe",
+        "size": "43 MB",
+        "version": null
+      },
+      {
+        "name": "官网下载页 · 始终能找到最新版",
+        "url": "https://www.videolan.org/vlc/download-windows.html",
+        "size": "网页",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "screenbox",
+    "name": "Screenbox",
+    "category": "影音图像",
+    "description": "一款专为 Windows 10/11 设计的开源媒体播放器，界面采用微软 Fluent Design 设计语言，底层基于 LibVLC，解码能力强，支持 4K / HDR / AV1 等格式硬解，观感和 Win11 系统界面统一，放视频很舒服。",
+    "version": "v0.24.0",
+    "size": "222.5 MB",
+    "requirements": "Windows 10/11",
+    "iconUrl": "https://store-images.s-microsoft.com/image/apps.27252.14412253091153471.48adf666-dcc9-44d1-95e6-206f697e816d.5cf5d0d2-01e6-4c17-bb43-9f1cb0bbb7ec?h=170",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "通过 Microsoft Store 下载",
+        "url": "https://apps.microsoft.com/detail/9ntsnmsvcb5l?hl=zh-CN&gl=CN",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "gomplayer",
+    "name": "GOM Player Plus(mefcl)",
+    "category": "影音图像",
+    "description": "由韩国GOM Labs公司开发的老牌视频播放器，由mefcl做出修改，在视频播放方面游刃有余。",
+    "version": "2.3.93.5363",
+    "size": "30 MB",
+    "requirements": "Windows 7 以上/64位",
+    "iconUrl": "https://ts2.tc.mm.bing.net/th/id/OIP-C.9xxpDrXp0w_Hsl3gAxUu_AHaHa?r=0&dpr=2.5&pid=ImgDetMain&o=7&rm=3",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows 安装包（蓝奏云） · 提取码：71y4",
+        "url": "https://mefcl.lanzouw.com/b012zjwyj",
+        "size": "30 MB",
+        "version": null
+      },
+      {
+        "name": "Windows 安装包（123云盘）",
+        "url": "https://www.123pan.com/s/QdiA-Q1pmh.html",
+        "size": "30 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "klite",
+    "name": "K-Lite",
+    "category": "影音图像",
+    "description": "扩展系统或播放器的解码能力。Windows 系统本身支持的音视频格式有限，安装 K-Lite 后，你的播放器（包括系统自带的）就能播放几乎所有主流及不常见的格式，如 MKV、MP4、AVI、FLV、HEVC (H.265) 等",
+    "version": "20.1.0",
+    "size": "未知",
+    "requirements": "Windows",
+    "iconUrl": "https://www.codecguide.com/mpc_logo.png",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "官方\tServer 1 标准版 · 通常使用标准版即可",
+        "url": "https://files2.codecguide.com/K-Lite_Codec_Pack_2010_Standard.exe",
+        "size": "39 MB",
+        "version": null
+      },
+      {
+        "name": "官方\tServer 2 标准版 · 通常使用标准版即可",
+        "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_2010_Standard.exe",
+        "size": "39 MB",
+        "version": null
+      },
+      {
+        "name": "官方完整版",
+        "url": "https://files2.codecguide.com/K-Lite_Codec_Pack_2010_Full.exe",
+        "size": "55 MB",
+        "version": null
+      },
+      {
+        "name": "官方组合版",
+        "url": "https://files2.codecguide.com/K-Lite_Codec_Pack_2010_Mega.exe",
+        "size": "66 MB",
+        "version": null
+      },
+      {
+        "name": "官方基础版 · 最精简的版本，包含播放主流格式所需的基本解码器，但不附带媒体播放器，适合已有播放器、只需解码支持的用户。",
+        "url": "https://files2.codecguide.com/K-Lite_Codec_Pack_2010_Basic.exe",
+        "size": "22 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "gopeed",
+    "name": "Gopeed",
+    "category": "网络工具",
+    "description": "Gopeed 是一款开源免费的高速下载器，采用 Golang + Flutter 构建，支持 HTTP(S)、BitTorrent、磁力链、ed2k 等多种协议，跨平台、界面简洁、无广告无捆绑。",
+    "version": "v1.9.3",
+    "size": "未知",
+    "requirements": "Windows / macOS / Linux / Android / iOS",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/GopeedLab/gopeed@main/ui/flutter/assets/icon/icon_512.png",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux",
+      "android",
+      "ios"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows EXE amd64",
+        "url": "https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-windows-amd64.zip",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "Windows EXE arm64",
+        "url": "https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-windows-arm64.zip",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "Windows Portable amd64",
+        "url": "https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-windows-amd64-portable.zip",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "Windows Portable arm64",
+        "url": "https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-windows-arm64-portable.zip",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "idm",
+    "name": "Internet Download Manager",
+    "category": "网络工具",
+    "description": "安装IDM，停止等待下载。你会真正惊讶于 IDM 下载你的文件的速度。IDM还会修复损坏的下载，并恢复因连接中断、网络问题、电脑关机等原因而中断的下载， 或者意外停电。\n强大的下载引擎采用独特算法，以最快的方式接收互联网数据。IDM凭借其创新的动态文件分段技术，将始终加速下载速度。 与其他下载管理器和加速器不同，IDM在下载过程中动态地下载文件，并且在没有额外的连接和登录阶段的情况下，重新利用可用连接，以实现最佳的加速性能。 我们的工程师在下载加速方面经验丰富，自1999年以来我们不断改进这个下载引擎。\nIDM 可无缝集成到 Google Chrome、FireFox、Microsoft Edge、Opera、Safari、Internet Explorer、AOL、MSN、Maxthon 及所有其他流行浏览器中。我们自1999年以来一直开发浏览器扩展，拥有目前最先进的工程解决方案。 IDM 提供其扩展安装，适用于 Chrome、Firefox、旧版和新版 Edge、Opera 及其他浏览器。\n（可以搭配IDM_6.4x_Crack破解使用）",
+    "version": "6.43.16",
+    "size": "未知",
+    "requirements": "Windows7及以上",
+    "iconUrl": "https://ts1.tc.mm.bing.net/th/id/OSAAS.61465FDED8BC78170F7B4F9D07858BA7?w=42&h=42&c=17&rs=1&o=6&oif=webp&pid=TechQna",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows X64",
+        "url": "https://download.internetdownloadmanager.com/idman643build15.exe",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "bili23-downloader",
+    "name": "Bili23-Downloader",
+    "category": "网络工具",
+    "description": "Bili23-Downloader 是一个开源、免费、跨平台的 B 站（哔哩哔哩）视频下载工具。支持多线程加速下载，可以把视频和音频分开保存，也能一并获取弹幕、封面等元数据；文件名与保存目录可以按自己的规则自定义和分类，方便把网课、公开课、教学视频归档到本地离线播放。Windows、macOS、Linux 都有对应版本（Windows 另有一个兼容 Win7 的安装包），界面简洁，贴入链接即可开始下载。",
+    "version": "v2.21.0",
+    "size": "约 32 MB",
+    "requirements": "Windows 7 ~ 11（x64）、macOS（Intel / Apple 芯片）、Linux（x64 / ARM64）",
+    "iconUrl": "https://img.pcsoft.com.cn/soft/202609/142445-6abcab2de6aeb.jpg",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Linux ARM64（AppImage） · Bili23-Downloader_2.15.0_linux_aarch64.AppImage",
+        "url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.21.0/Bili23-Downloader_2.21.0_linux_aarch64.AppImage",
+        "size": "55 MB",
+        "version": null
+      },
+      {
+        "name": "Linux ARM64（.rpm） · Bili23-Downloader_2.15.0_linux_aarch64.rpm",
+        "url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.21.0/Bili23-Downloader_2.21.0_linux_aarch64.rpm",
+        "size": "60 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64（.deb） · Bili23-Downloader_2.15.0_linux_amd64.deb",
+        "url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.21.0/Bili23-Downloader_2.21.0_linux_amd64.deb",
+        "size": "48 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64 便携版 · Bili23-Downloader_2.15.0_linux_amd64_portable.tar.gz",
+        "url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.21.0/Bili23-Downloader_2.21.0_linux_amd64_portable.tar.gz",
+        "size": "65 MB",
+        "version": null
+      },
+      {
+        "name": "Linux ARM64（.deb） · Bili23-Downloader_2.15.0_linux_arm64.deb",
+        "url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.21.0/Bili23-Downloader_2.21.0_linux_arm64.deb",
+        "size": "45 MB",
+        "version": null
+      },
+      {
+        "name": "Linux ARM64 便携版 · Bili23-Downloader_2.15.0_linux_arm64_portable.tar.gz",
+        "url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.21.0/Bili23-Downloader_2.21.0_linux_arm64_portable.tar.gz",
+        "size": "60 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64（AppImage） · Bili23-Downloader_2.15.0_linux_x86_64.AppImage",
+        "url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.21.0/Bili23-Downloader_2.21.0_linux_x86_64.AppImage",
+        "size": "59 MB",
+        "version": null
+      },
+      {
+        "name": "Linux x64（.rpm） · Bili23-Downloader_2.15.0_linux_x86_64.rpm",
+        "url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.21.0/Bili23-Downloader_2.21.0_linux_x86_64.rpm",
+        "size": "64 MB",
+        "version": null
+      },
+      {
+        "name": "macOS（Apple 芯片）（磁盘映像） · Bili23-Downloader_2.15.0_macos_aarch64.dmg",
+        "url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.21.0/Bili23-Downloader_2.21.0_macos_aarch64.dmg",
+        "size": "58 MB",
+        "version": null
+      },
+      {
+        "name": "macOS（Intel）（磁盘映像） · Bili23-Downloader_2.15.0_macos_x86_64.dmg",
+        "url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.21.0/Bili23-Downloader_2.21.0_macos_x86_64.dmg",
+        "size": "58 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 安装版 · Bili23-Downloader_2.15.0_windows_x64.exe",
+        "url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.21.0/Bili23-Downloader_2.21.0_windows_x64.exe",
+        "size": "31 MB",
+        "version": null
+      },
+      {
+        "name": "Windows x64 安装版 · Bili23-Downloader_2.15.0_windows_x64_for_win7.exe",
+        "url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.21.0/Bili23-Downloader_2.21.0_windows_x64_for_win7.exe",
+        "size": "32 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "bilibilidownloader",
+    "name": "BilibiliDownloader",
+    "category": "网络工具",
+    "description": "基于 PySide6 + qfluentwidgets 的 B 站内容下载桌面工具，Fluent / WinUI 风格界面，支持视频、番剧、直播、音频、歌单、收藏夹、UP 主、合集、课程等多种内容的解析与下载，以及直播录制与批量解析。",
+    "version": "v2.1.0",
+    "size": "未知",
+    "requirements": "Windows / macOS / Linux",
+    "iconUrl": "https://avatars.githubusercontent.com/u/309121009?v=4",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Linux ARM64（AppImage） · BilibiliDownloader-aarch64.AppImage",
+        "url": "https://github.com/colever-Beep/BilibiliDownloader/releases/download/v2.1.0/BilibiliDownloader-aarch64.AppImage",
+        "size": "270 MB",
+        "version": null
+      },
+      {
+        "name": "macOS（Apple 芯片）（磁盘映像） · BilibiliDownloader-macos-arm64.dmg",
+        "url": "https://github.com/colever-Beep/BilibiliDownloader/releases/download/v2.1.0/BilibiliDownloader-macos-arm64.dmg",
+        "size": "261 MB",
+        "version": null
+      },
+      {
+        "name": "macOS（Intel）（磁盘映像） · BilibiliDownloader-macos-x86_64.dmg",
+        "url": "https://github.com/colever-Beep/BilibiliDownloader/releases/download/v2.1.0/BilibiliDownloader-macos-x86_64.dmg",
+        "size": "287 MB",
+        "version": null
+      },
+      {
+        "name": "其他 便携版 · BilibiliDownloader-portable.zip",
+        "url": "https://github.com/colever-Beep/BilibiliDownloader/releases/download/v2.1.0/BilibiliDownloader-portable.zip",
+        "size": "456 MB",
+        "version": null
+      },
+      {
+        "name": "Windows 安装版 · BilibiliDownloader-Setup-2.0.0.exe",
+        "url": "https://github.com/colever-Beep/BilibiliDownloader/releases/download/v2.1.0/BilibiliDownloader-Setup-2.1.0.exe",
+        "size": "318 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "yunx",
+    "name": "云析",
+    "category": "网络工具",
+    "description": "粘贴分享链接，直接高速下载 —— 一个开源的 Android 网盘解析下载应用\n\n识别夸克 / UC / 迅雷 / 百度 / 139 / 123 / 115 / 光鸭 / 蓝奏云 / 蓝奏云优享版 分享链接，自动匹配提取码，Range 分片并发 + 断点续传。",
+    "version": "v1.3.0",
+    "size": "未知",
+    "requirements": "Android",
+    "iconUrl": "https://pic.appskong.com/up/202608/10_1786339703329.webp",
+    "tags": [],
+    "platforms": [],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Android（APK） · YunX_release_1.2.9.apk",
+        "url": "https://github.com/CYQawa/YunX/releases/download/v1.3.0/YunX_release_1.3.0.apk",
+        "size": "6.0 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "xpddvc6xtqqkmm",
+    "name": "哔哩哔哩 PC 客户端",
+    "category": "影音图像",
+    "description": "哔哩哔哩官方 PC 客户端，相比网页端更充分地利用大屏优势，内容呈现更沉浸。番剧、直播、动态等功能齐全，适合在教室大屏上播放教学视频和优质课程内容。",
+    "version": "1.18.0",
+    "size": "198 MB",
+    "requirements": "Windows 7+",
+    "iconUrl": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxuuj.ku6DU7DpevDlTx30eb2rz4LC3mrThQciGHOeJTty.ikEL.NSXU8JoEkqgdccp5jECoMz7JskFErSDSwNOw-&format=source&h=134",
+    "tags": [],
+    "platforms": [
+      "windows"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "通过 Microsoft Store 下载",
+        "url": "https://apps.microsoft.com/detail/xpddvc6xtqqkmm?launch=true&mode=full&hl=zh-CN&gl=CN&ocid=bingwebsearch",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "Windows · 官网下载页面",
+        "url": "https://dl.hdslb.com/mobile/fixed/bili_win/bili_win-install.exe?v=1.18.0-3&spm_id_from=333.47.b_646f776e6c6f61642d6c696e6b.9",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "wiliwili",
+    "name": "wiliwili",
+    "category": "影音图像",
+    "description": "第三方B站客户端，目前可以运行在PC全平台、PSVita、PS4 、Xbox 和 Nintendo Switch上",
+    "version": "v1.6.0",
+    "size": "未知",
+    "requirements": "Windows / macOS / Linux",
+    "iconUrl": "https://imgproxy.flathub.org/insecure/dpr:2/f:avif/q:100/rs:fit:128:128/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9jbi94ZmFuZ2Zhbmcvd2lsaXdpbGkvMDFmYTQyYjZlMTg1YjYwYmNkOTE0MTExZTU4YTcyYjgvaWNvbnMvMTI4eDEyOC9jbi54ZmFuZ2Zhbmcud2lsaXdpbGkucG5n",
+    "tags": [],
+    "platforms": [],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "wiliwili-Windows-arm64.zip",
+        "url": "https://github.com/xfangfang/wiliwili/releases/download/v1.6.0/wiliwili-Windows-arm64.zip",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "wiliwili-Windows-x86-OldGPU.zip",
+        "url": "https://github.com/xfangfang/wiliwili/releases/download/v1.6.0/wiliwili-Windows-x86-OldGPU.zip",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "wiliwili-Windows-x86.zip",
+        "url": "https://github.com/xfangfang/wiliwili/releases/download/v1.6.0/wiliwili-Windows-x86.zip",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "wiliwili-Windows-x86_64-OldGPU.zip",
+        "url": "https://github.com/xfangfang/wiliwili/releases/download/v1.6.0/wiliwili-Windows-x86_64-OldGPU.zip",
+        "size": null,
+        "version": null
+      },
+      {
+        "name": "wiliwili-Windows-x86_64.zip",
+        "url": "https://github.com/xfangfang/wiliwili/releases/download/v1.6.0/wiliwili-Windows-x86_64.zip",
+        "size": null,
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "bbplayer",
+    "name": "BBPlayer",
+    "category": "影音图像",
+    "description": "一款简约、好用的 BiliBili 音乐播放器。",
+    "version": "v2.8.0",
+    "size": "未知",
+    "requirements": "Android",
+    "iconUrl": "https://bbplayer.roitium.com/icon.png",
+    "tags": [],
+    "platforms": [
+      "android"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Android ARM64（APK） · bbplayer-v2.7.0-prod-arm64-v8a.apk",
+        "url": "https://github.com/bbplayer-app/BBPlayer/releases/download/v2.8.0/bbplayer-v2.8.0-prod-arm64-v8a.apk",
+        "size": "93 MB",
+        "version": null
+      },
+      {
+        "name": "Android（APK） · bbplayer-v2.7.0-prod-armeabi-v7a.apk",
+        "url": "https://github.com/bbplayer-app/BBPlayer/releases/download/v2.8.0/bbplayer-v2.8.0-prod-armeabi-v7a.apk",
+        "size": "78 MB",
+        "version": null
+      },
+      {
+        "name": "Android x86（APK） · bbplayer-v2.7.0-prod-x86.apk",
+        "url": "https://github.com/bbplayer-app/BBPlayer/releases/download/v2.8.0/bbplayer-v2.8.0-prod-x86.apk",
+        "size": "96 MB",
+        "version": null
+      },
+      {
+        "name": "Android x64（APK） · bbplayer-v2.7.0-prod-x86_64.apk",
+        "url": "https://github.com/bbplayer-app/BBPlayer/releases/download/v2.8.0/bbplayer-v2.8.0-prod-x86_64.apk",
+        "size": "96 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "azusa-player-mobile",
+    "name": "azusa-player-mobile",
+    "category": "影音图像",
+    "description": "移动端的抽象b站音乐播放器",
+    "version": "v4.3.3",
+    "size": "未知",
+    "requirements": "Android",
+    "iconUrl": "https://avatars.githubusercontent.com/u/106490582?v=4",
+    "tags": [],
+    "platforms": [
+      "android"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Android ARM64（APK）",
+        "url": "https://github.com/lovegaoshi/azusa-player-mobile/releases/download/v4.3.3/app-arm64-v8a-release.apk",
+        "size": "89 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "bongocat",
+    "name": "BongoCat",
+    "category": "其他工具",
+    "description": "BongoCat 是一款开源免费的跨平台互动桌面宠物：敲键盘、点鼠标时，屏幕上的小猫都会跟着一起动，可爱又轻量，给课堂电脑添一点趣味。",
+    "version": "v2.4.1",
+    "size": "未知",
+    "requirements": "Windows / macOS",
+    "iconUrl": "https://store-images.s-microsoft.com/image/apps.30957.14597939646592532.54d62e1a-9978-49ee-98c4-772b926c384a.97e06195-28c4-459a-abfe-166debd64a17?h=134",
+    "tags": [],
+    "platforms": [
+      "windows",
+      "macos"
+    ],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Windows x64 安装版 · BongoCat_2.0.1_x64.exe",
+        "url": "https://github.com/ayangweb/BongoCat/releases/download/v2.4.1/BongoCat_2.4.1_x64.exe",
+        "size": "11 MB",
+        "version": null
+      }
+    ]
+  },
+  {
+    "id": "seal",
+    "name": "Seal",
+    "category": "网络工具",
+    "description": "一个简单的 Android 视频/音频下载器，使用 Jetpack Compose 进行开发",
+    "version": "v1.13.1",
+    "size": "未知",
+    "requirements": "Android",
+    "iconUrl": "https://tse2-mm.cn.bing.net/th/id/OIP-C.5A-YGjy5TLiWqYYNMhtkjQAAAA?w=150&h=150&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3",
+    "tags": [],
+    "platforms": [],
+    "updatedAt": 0,
+    "sources": [
+      {
+        "name": "Android ARM64（APK） · Seal-1.13.1-arm64-v8a-release.apk",
+        "url": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-arm64-v8a-release.apk",
+        "size": "41.1 MB",
+        "version": null
+      },
+      {
+        "name": "Android（APK） · Seal-1.13.1-armeabi-v7a-release.apk",
+        "url": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-armeabi-v7a-release.apk",
+        "size": "38.7 MB",
+        "version": null
+      },
+      {
+        "name": "Android 通用（APK） · Seal-1.13.1-universal-release.apk",
+        "url": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-universal-release.apk",
+        "size": "138 MB",
+        "version": null
+      },
+      {
+        "name": "Android x86（APK） · Seal-1.13.1-x86-release.apk",
+        "url": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-x86-release.apk",
+        "size": "42.3 MB",
+        "version": null
+      },
+      {
+        "name": "Android x64（APK） · Seal-1.13.1-x86_64-release.apk",
+        "url": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-x86_64-release.apk",
+        "size": "43.1 MB",
+        "version": null
+      }
+    ]
+  }
+]
