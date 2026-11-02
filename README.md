@@ -152,9 +152,11 @@ gradle assembleDebug
 
 ```powershell
 keytool -genkeypair -v -keystore keystore/release.jks -alias classsoftwarehub `
-  -keyalg RSA -keysize 2048 -validity 10000 -storepass <密码> -keypass <密码> `
+  -keyalg RSA -keysize 2048 -validity 10000 -storepass <密码> `
   -dname "CN=ClassSoftwareHub, OU=Dev, O=CSH, L=Beijing, C=CN"
 ```
+
+> JDK 17 的 keytool 默认建 **PKCS12** 库，而 PKCS12 不支持给单把私钥单独设口令（会提示「PKCS12 密钥库不支持单独存储密钥口令」并强制与库口令一致）。所以别再传 `-keypass`，下面 `keystore.properties` 里 `storePassword` 与 `keyPassword` 填同一个值即可。
 
 在项目根目录创建 `keystore.properties`：
 
@@ -162,17 +164,19 @@ keytool -genkeypair -v -keystore keystore/release.jks -alias classsoftwarehub `
 storeFile=keystore/release.jks
 storePassword=<密码>
 keyAlias=classsoftwarehub
-keyPassword=<密码>
+keyPassword=<同一个密码>
 ```
 
-然后执行 `./gradlew assembleRelease`，产物位于 `app/build/outputs/apk/release/`。未配置签名时会自动回退到 debug 签名，便于内测分发。
+然后执行 `./gradlew assembleRelease`，产物位于 `app/build/outputs/apk/release/`。可用 `apksigner verify --print-certs app-release.apk` 确认签名者确实是这把密钥（而不是 debug 回退）。未配置签名时会自动回退到 debug 签名，便于内测分发。
+
+**这把密钥就是应用的长期身份**：换库之后老用户无法覆盖升级，务必把 `keystore/release.jks` 和口令备份到仓库之外（GitHub 上的 Secret 只是副本，仓库删了就拿不回来了）。
 
 ## 构建产物
 
 | 产物 | 路径 | 说明 |
 |---|---|---|
 | Debug APK | `app/build/outputs/apk/debug/app-debug.apk` | 调试签名，可直接安装测试 |
-| Release APK | `app/build/outputs/apk/release/app-release.apk` | 优化资源；未配置 `keystore.properties` 时使用 debug 签名回退 |
+| Release APK | `app/build/outputs/apk/release/app-release.apk` | release 构建类型（未开 `minify`/`shrinkResources`）；未配置 `keystore.properties` 时使用 debug 签名回退 |
 
 安装：`adb install -r app/build/outputs/apk/debug/app-debug.apk`，或把 APK 发送到手机点击安装（需允许「安装未知应用」）。
 
@@ -196,7 +200,7 @@ keyPassword=<密码>
 | `RELEASE_KEYSTORE_BASE64` | `keystore/release.jks` 的单行 base64（Linux/macOS `base64 -w0 keystore/release.jks`；Windows `certutil -encode` 后去掉头尾拼成一行） |
 | `RELEASE_STORE_PASSWORD` | keystore 口令 |
 | `RELEASE_KEY_ALIAS` | 密钥别名（对应上文 `classsoftwarehub`） |
-| `RELEASE_KEY_PASSWORD` | 私钥口令 |
+| `RELEASE_KEY_PASSWORD` | 私钥口令（PKCS12 下与 `RELEASE_STORE_PASSWORD` 相同） |
 
 未配置这些 Secret 时 Release 任务照样成功，但会走 debug 签名回退，发布说明里会标注。**签名密钥一旦更换，旧包无法覆盖安装**，所以首次对外发版就应把 Secret 配齐。
 
