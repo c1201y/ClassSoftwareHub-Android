@@ -187,6 +187,8 @@ keyPassword=<密码>
 
 > Runner 在海外，仓库 wrapper 默认指向腾讯云 Gradle 镜像，工作流里会把 `distributionUrl` 临时改回官方地址再构建（只影响 CI，不改仓库文件）。
 
+> 两个任务都固定跑在 `ubuntu-24.04`（不是 `ubuntu-latest`）：后者正在向 Ubuntu 26 迁移，镜像里的 Android SDK 预装不再稳定。CI 直接用镜像自带 SDK，只用 `sdkmanager` 幂等补齐 `platforms;android-34` 与 `build-tools;34.0.0`。`gradlew` 需要保留 Unix 可执行位（在 Windows 上首次提交请用 `git update-index --chmod=+x gradlew`，否则 Linux runner 会 `Permission denied`）。
+
 发布正式版前，在 **仓库 Settings → Secrets and variables → Actions** 配置下列 Secret（签名文件与口令都不入库，`.gitignore` 已排除 `keystore.properties` 与 `*.jks`）：
 
 | Secret | 内容 |
